@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-  devtool: 'eval-source-map',
+  devtool: "eval-source-map",
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -48,9 +48,9 @@ module.exports = {
     }),
   ],
   devServer: {
-    static: path.join(__dirname, 'dist'),
+    static: path.join(__dirname, "dist"),
     compress: true,
     port: 3000,
     historyApiFallback: true,
-  }
+  },
 };
