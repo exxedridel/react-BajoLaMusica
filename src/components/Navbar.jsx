@@ -1,39 +1,38 @@
 import React from "react";
 import "../styles/Navbar.scss";
 import { Link } from "react-router-dom";
-import menu from "../assets/icons/icon_menu.svg";
-import logo from "../assets/images/logo_bajo_musica.png";
+import menu from "../assets/icons/menu-btn.png";
+import logo from "../assets/icons/bajo-la-musica-logo.png";
 
 const App = () => {
   return (
     <nav className="navbar">
-      <img src={menu} alt="menu" className="menu" />
-
       <div className="navbar-left">
         <Link to="/">
           <img src={logo} alt="logo" className="nav-logo" />
         </Link>
-
-        <ul>
-          <li>
-            <Link to="/vlog">Vlog</Link>
-          </li>
-          <li>
-            <Link to="/news">Noticias</Link>
-          </li>
-          <li>
-            <Link to="/Contact">Contacto</Link>
-          </li>
-          <li>
-            <Link to="about">About</Link>
-          </li>
-        </ul>
       </div>
+
       <div className="navbar-right">
         <ul>
-          <li className="navbar-email">hevedrios@bajolamusica.com</li>
+          <li>
+            <Link to="/">INICIO</Link>
+          </li>
+          <li>
+            <Link to="videos">VIDEOS</Link>
+          </li>
+          <li>
+            <Link to="notes">NOTAS</Link>
+          </li>
+          <li>
+            <Link to="about">ACERCA</Link>
+          </li>
+          <Link to="contact">
+            <button className="btn-contact">Contáctanos</button>
+          </Link>
         </ul>
       </div>
+      <img src={menu} alt="menu button" className="menu-btn" />
     </nav>
   );
 };
