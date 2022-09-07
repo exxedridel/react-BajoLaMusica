@@ -1,0 +1,35 @@
+section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-title h1 {
+  padding: 40px;
+  letter-spacing: 2px;
+}
+
+.heading-description p {
+  margin: 0;
+  padding: 0 20px 20px;
+  font-size: var(--lg);
+}
+
+.heading-description b {
+   color: var(--contrast);
+}
+
+.heading-image img {
+   width: 100vw;
+   padding: 20px;
+}
+
+.middle-title h2,
+.bottom-title h2 {
+   padding: 20px;
+}
+
+.middle-block {
+   background-color: white;
+   color: black;
+}

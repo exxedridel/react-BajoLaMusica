@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 import Notes from "./pages/Notes";
 import Videos from "./pages/Videos";
 
@@ -22,6 +23,7 @@ root.render(
         <Route path="notes" element={<Notes />} />
         <Route path="videos" element={<Videos />} />
       </Routes>
+      <Footer />
     </HashRouter>
   </React.StrictMode>
 );
