@@ -1,0 +1,53 @@
+@import "vars";
+
+.mobile-menu {
+  background-color: var(--body-color);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100vw;
+  height: 270px;
+  border-bottom: 0.3px solid var(--contrast);
+}
+.list-e {
+  font-size: var(--nav-elements);
+}
+.mobile-menu a {
+  text-decoration: none;
+  color: var(--white);
+  letter-spacing: 2px;
+}
+.mobile-menu ul {
+  padding: 0;
+  margin: 24px 0 0 34px;
+  list-style: none;
+}
+
+.mobile-menu ul li {
+  margin-bottom: 25px;
+}
+
+.btn-e {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 16px;
+}
+
+.btn-contact-mobile {
+   background-color: var(--body-color);
+   color: var(--contrast);
+   border: 1px solid var(--contrast);
+   border-radius: 8px;
+   font-family: "Montserrat", sans-serif;
+   font-size: var(--md);
+   font-weight: 700;
+   padding: 10px 21vw;
+ }
+
+@media (min-width: 836px) {
+  .mobile-menu {
+    display: none;
+  }
+}

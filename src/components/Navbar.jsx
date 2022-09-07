@@ -3,38 +3,53 @@ import "../styles/Navbar.scss";
 import { Link } from "react-router-dom";
 import menu from "../assets/icons/menu-btn.png";
 import logo from "../assets/icons/bajo-la-musica-logo.png";
+import MobileMenu from "./MobileMenu";
 
-const App = () => {
+const Navbar = () => {
+  const [toggleMobile, setToggleMobile] = React.useState(false);
+
+  const handleToggleMobile = () => {
+    setToggleMobile(!toggleMobile);
+  };
+
   return (
-    <nav className="navbar">
-      <div className="navbar-left">
-        <Link to="/">
-          <img src={logo} alt="logo" className="nav-logo" />
-        </Link>
-      </div>
-
-      <div className="navbar-right">
-        <ul>
-          <li>
-            <Link to="/">INICIO</Link>
-          </li>
-          <li>
-            <Link to="videos">VIDEOS</Link>
-          </li>
-          <li>
-            <Link to="notes">NOTAS</Link>
-          </li>
-          <li>
-            <Link to="about">ACERCA</Link>
-          </li>
-          <Link to="contact">
-            <button className="btn-contact">Contáctanos</button>
+    <>
+      <nav className="navbar">
+        <div className="navbar-left">
+          <Link to="/">
+            <img src={logo} alt="logo" className="nav-logo" />
           </Link>
-        </ul>
-      </div>
-      <img src={menu} alt="menu button" className="menu-btn" />
-    </nav>
+        </div>
+
+        <div className="navbar-right">
+          <ul>
+            <li>
+              <Link to="/">INICIO</Link>
+            </li>
+            <li>
+              <Link to="videos">VIDEOS</Link>
+            </li>
+            <li>
+              <Link to="notes">NOTAS</Link>
+            </li>
+            <li>
+              <Link to="about">ACERCA</Link>
+            </li>
+            <Link to="contact">
+              <button className="btn-contact">Contáctanos</button>
+            </Link>
+          </ul>
+        </div>
+        <img
+          src={menu}
+          alt="menu button"
+          className="menu-btn"
+          onClick={handleToggleMobile}
+        />
+      </nav>
+      {toggleMobile && <MobileMenu handleToggleMobile={handleToggleMobile} />}
+    </>
   );
 };
 
-export default App;
+export default Navbar;

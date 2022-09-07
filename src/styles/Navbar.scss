@@ -2,16 +2,16 @@
 
 nav {
   height: 60px;
-  font-size: 1.1rem;
+  font-size: var(--nav-elements);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 3px 33px;
   border-bottom: 1px solid var(--contrast);
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: var(--black);
+  background-color: var(--body-color);
+  // position: -webkit-sticky;
+  // position: sticky;
+  // top: 0;
 }
 
 .nav-logo {
@@ -43,7 +43,7 @@ nav {
   letter-spacing: 2px;
   text-decoration: none;
   color: var(--very-light-blue);
-  border: 1px solid var(--black);
+  border: 1px solid var(--body-color);
   padding: 10px 10px;
   margin: 0 10px;
   border-radius: 8px;
@@ -55,19 +55,21 @@ nav {
 }
 
 .btn-contact {
-  background-color: black;
+  background-color: var(--body-color);
   color: var(--contrast);
   border: 1px solid var(--contrast);
   border-radius: 8px;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.1rem;
+  font-size: var(--md);
+  font-weight: 700;
   padding: 10px 15px;
-  margin-left: 2rem;
+  margin-left: 25px;
 }
 
 .btn-contact:hover {
   background-color: var(--contrast);
-  color: black;
+  color: var(--body-color);
+  cursor: pointer;
 }
 
 @media (max-width: 836px) {
@@ -89,5 +91,8 @@ nav {
   .navbar-right ul li a {
     padding: 10px 15px;
     margin: 0 35px;
+  }
+  .btn-contact {
+    margin-left: 50px;
   }
 }
