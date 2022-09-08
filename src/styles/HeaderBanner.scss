@@ -21,11 +21,17 @@
    font-size: 72px;
   //  font-weight: 700;
    text-shadow: 0px 0px 20px #242424;
+   color: white;
  }
  
-//  .overlap-text p {
-//    margin-bottom: 1px;
-//  }
+ .overlap-text {
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 72px;
+  text-shadow: 0px 0px 20px #242424;
+}
  
  @media (max-width: 1073px) {
    .first-container img {

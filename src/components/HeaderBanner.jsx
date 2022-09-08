@@ -10,7 +10,7 @@ const HeaderBanner = () => {
       />
       <div className="overlap-text">
         <p>
-          Hola mi vro, ahora
+          Hola mi vro, ahora ya
           <br />
           estás ¡<b>bajo la música</b>!
         </p>

@@ -1,35 +1,54 @@
 section {
-  text-align: center;
+  
   display: flex;
   flex-direction: column;
 }
 
-.heading-title h1 {
-  padding: 40px;
+section h1,
+h2 {
   letter-spacing: 2px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.heading-block {
+  padding: 30px 0;
+}
+
+.heading-title > h1 {
+  font-style: italic;
 }
 
 .heading-description p {
   margin: 0;
-  padding: 0 20px 20px;
+  padding: 20px 15px;
   font-size: var(--lg);
 }
 
 .heading-description b {
-   color: var(--contrast);
+  color: var(--contrast);
 }
 
-.heading-image img {
-   width: 100vw;
-   padding: 20px;
-}
-
-.middle-title h2,
-.bottom-title h2 {
-   padding: 20px;
+.heading-image > img {
+  width: 100vw;
+  padding: 10px;
 }
 
 .middle-block {
-   background-color: white;
-   color: black;
+  background-color: white;
+  color: black;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px 8px 0 8px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
 }
