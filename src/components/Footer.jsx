@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div className="footer">
         <div className="left">
-          © 2022 Revista Bajo la Música Pvt. Ltd. — All Rights Reserved
+          © 2022 WebApp Bajo la Música Pvt. Ltd. — Todos Los Derechos Reservados
         </div>
         <div className="right">
           <img src={icon} alt="icon" />

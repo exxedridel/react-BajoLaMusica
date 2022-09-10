@@ -1,3 +1,5 @@
+@import "vars";
+
 * {
    box-sizing: border-box;
 }
@@ -9,21 +11,22 @@ body {
    margin: 0;
 }
 
+.center {
+   text-align: center;
+}
+
 .small {
    font-size: var(--sm);
+ }
+
+ .medium {
+   font-size: var(--md);
+ }
+
+ .large {
+   font-size: var(--large);
  }
 
  .bold {
    font-weight: 700;
  }
-
-// h1 {
-//    display: flex;
-//    justify-content: center;
-//    letter-spacing: 2px;
-// }
-
-// p {
-//    padding: 0 8px;
-//    font-size: var(--md);
-// }

@@ -1,0 +1,15 @@
+@import "vars";
+
+.heading-block p {
+  margin: 0;
+  padding: 20px 15px;
+  font-size: var(--lg);
+}
+
+.cover-header b {
+  color: var(--contrast);
+}
+.cover-image > img {
+  width: 100vw;
+  padding: 20px;
+}
