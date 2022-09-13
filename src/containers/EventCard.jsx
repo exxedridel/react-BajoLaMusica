@@ -13,16 +13,13 @@ const Card = (props) => {
     <div className="cardi">
       {badgeText && <div className="card--badge">{badgeText}</div>}
       <img src={`${props.data.coverImg}`} className="card--image" />
-      <div className="card--stats">
-        <span className="small">{props.data.stats.date} •&nbsp;</span>
-        <span className="small">&nbsp;({props.data.location})</span>
+      <div className="center">
+        <span className="card--date">{props.data.stats.date} •&nbsp;</span>
+        <span className="card--time">{props.data.stats.time}</span>
       </div>
-      <p className="small center">{props.data.title}</p>
-      <div className="card--price">
-        <p>
-          <span className="small">Entrada: {props.data.price} </span>
-        </p>
-      </div>
+      <span className="card--location">({props.data.location})</span>
+      <span className="card--title center">{props.data.title}</span>
+      <span className="card--price">Entrada: {props.data.price} </span>
     </div>
   );
 };

@@ -67,7 +67,7 @@ export default [
     coverImg:
       "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     stats: {
-      date: "SEP 30",
+      date: "20/8/2022",
       reviewCount: 10,
     },
     location: "León, GTO",

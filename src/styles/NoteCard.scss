@@ -1,20 +1,25 @@
 @import "vars";
 
 .note-cardi {
+  padding: 14px 0;
   width: 90vw;
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
   position: relative;
+  border: solid 1px rgb(71, 71, 71);
+  border-radius: 8px;
 }
 
 .note-card--title p {
   font-size: var(--lg);
+  padding: 0 14px;
 }
 
-.note-card--data {
+.note-card--date {
   display: flex;
   align-self: flex-end;
+  padding-right: 14px;
 }
 
 .note-card--image {
@@ -22,7 +27,6 @@
   width: 100%;
   object-fit: cover;
   border-radius: 9px;
-  margin-bottom: 9px;
 }
 
 .notes-card-list {

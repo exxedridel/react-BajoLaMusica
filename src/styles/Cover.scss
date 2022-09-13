@@ -13,3 +13,11 @@
   width: 100vw;
   padding: 20px;
 }
+
+@media (min-width: 415px) { //aqui me quedé
+  .heading-block {
+    display: grid;
+    grid-column: 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+  }
+}

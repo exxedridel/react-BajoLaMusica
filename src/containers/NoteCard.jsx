@@ -12,17 +12,17 @@ const Card = (props) => {
 
   return (
     <div className="note-cardi">
-      <div className="note-card--title">
-        <p>{props.data.title}</p>
-      </div>
-      <div className="note-card--data">
-        <span className="small">{props.data.stats.date}</span>
-      </div>
       <img
         src={`${props.data.coverImg}`}
         className="note-card--image"
         alt="Note image"
       />
+      <div className="note-card--title">
+        <p>{props.data.title}</p>
+      </div>
+      <div className="note-card--date">
+        <span className="small">{props.data.stats.date}</span>
+      </div>
     </div>
   );
 };
