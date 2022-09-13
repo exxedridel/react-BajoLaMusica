@@ -23,12 +23,12 @@ const Home = () => {
   return (
     <>
       <HeaderBanner />
-      <section className="heading-block center">
+      <div className="heading-block center">
         <div className="heading-title">
           <h1>LO ÚLTIMO:</h1>
         </div>
         <Cover />
-      </section>
+      </div>
 
       <section className="middle-block">
         <h2 className="center">PRÓXIMOS EVENTOS</h2>

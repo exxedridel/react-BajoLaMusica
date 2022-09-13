@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div className="footer">
         <div className="left">
-          © 2022 WebApp Bajo la Música Pvt. Ltd. — Todos Los Derechos Reservados
+          © 2022 WebApp Bajo la Música Pvt. Ltd. — Derechos Reservados
         </div>
         <div className="right">
           <img src={icon} alt="icon" />

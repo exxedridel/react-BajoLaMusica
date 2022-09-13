@@ -40,3 +40,9 @@
   border-top: solid 1px var(--contrast);
   border-bottom: dotted 1px var(--contrast);
 }
+
+@media (min-width: 415px) {
+  .note-cardi {
+    max-width: 600px;
+  }
+}

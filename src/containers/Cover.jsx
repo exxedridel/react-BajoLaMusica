@@ -3,13 +3,13 @@ import "../styles/Cover.scss"
 
 const Cover = () => {
   return (
-    <>
+    <div className="cover">
       <div className="cover-header">
-        <h3>
+        <h2>
           ENTREVISTA
           <br />
           <b>Zaratustra</b>
-        </h3>
+        </h2>
         <p>
           Acompáñanos a disfrutar de su hipnotizante sonido grunge. Además te
           presentamos la entrevista exclusiva.
@@ -32,7 +32,7 @@ const Cover = () => {
           material y más, solo en BLM!
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

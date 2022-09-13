@@ -12,7 +12,7 @@ const Card = (props) => {
   return (
     <div className="cardi">
       {badgeText && <div className="card--badge">{badgeText}</div>}
-      <img src={`${props.data.coverImg}`} className="card--image" />
+      <img src={`${props.data.coverImg}`} className="card--image" alt="Imagen del flyer"/>
       <div className="center">
         <span className="card--date">{props.data.stats.date} •&nbsp;</span>
         <span className="card--time">{props.data.stats.time}</span>

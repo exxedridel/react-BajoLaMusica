@@ -5,7 +5,7 @@ export default [
      description:
        'I will share with you what I call "Positively Impactful Moments of Disappointment." Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.',
      price: "$60 pesos",
-     coverImg: "https://scontent.fcyw1-1.fna.fbcdn.net/v/t39.30808-6/302017868_110785141753504_9151076810331786234_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGpRyX8s_TdK4aUdjm67uWBflnN_fOKVZd-Wc3984pVl6y0JyUrEDg8c-Uhl77dls0QLsisv-skTmT07EiwslwF&_nc_ohc=INPYmt5nLV0AX9ov3J5&_nc_ht=scontent.fcyw1-1.fna&oh=00_AT-OsZJcW6vRj_S_p8W22qcwVmwzh54siXWZ_t19YreSpg&oe=6320E802",
+     coverImg: "https://scontent.fcyw1-1.fna.fbcdn.net/v/t39.30808-6/302017868_110785141753504_9151076810331786234_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGpRyX8s_TdK4aUdjm67uWBflnN_fOKVZd-Wc3984pVl6y0JyUrEDg8c-Uhl77dls0QLsisv-skTmT07EiwslwF&_nc_ohc=7dyIGk9nNkcAX_qR2QZ&_nc_ht=scontent.fcyw1-1.fna&oh=00_AT8b5QV5SPxBiKpF0Kp1jZK-KljovyRupGUH0nN2SUDa7w&oe=6326D6C2",
      stats: {
        date: "10 SEP",
        time: "22 hrs",
