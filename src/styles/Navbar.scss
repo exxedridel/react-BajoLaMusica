@@ -55,21 +55,7 @@ nav {
 }
 
 .btn-contact {
-  background-color: var(--body-color);
-  color: var(--contrast);
-  border: 1px solid var(--contrast);
-  border-radius: 8px;
-  font-family: "Montserrat", sans-serif;
-  font-size: var(--md);
-  font-weight: 700;
-  padding: 10px 15px;
   margin-left: 25px;
-}
-
-.btn-contact:hover {
-  background-color: var(--contrast);
-  color: var(--body-color);
-  cursor: pointer;
 }
 
 @media (max-width: 836px) {

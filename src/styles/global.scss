@@ -1,32 +1,55 @@
 @import "vars";
 
 * {
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-   background-color: var(--body-color);
-   color: var(--very-light-blue);
-   font-family: 'Montserrat', sans-serif;
-   margin: 0;
+  background-color: var(--body-color);
+  color: var(--very-light-blue);
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
 .center {
-   text-align: center;
+  text-align: center;
 }
 
 .small {
-   font-size: var(--sm);
- }
+  font-size: var(--sm);
+}
 
- .medium {
-   font-size: var(--md);
- }
+.medium {
+  font-size: var(--md);
+}
 
- .large {
-   font-size: var(--large);
- }
+.large {
+  font-size: var(--large);
+}
 
- .bold {
-   font-weight: 700;
- }
+.bold {
+  font-weight: 700;
+}
+
+.btn {
+  background-color: var(--body-color);
+  color: var(--contrast);
+  border: 1px solid var(--contrast);
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: var(--md);
+  font-weight: 700;
+  padding: 10px 15px;
+}
+
+.btn:hover {
+  background-color: var(--contrast);
+  color: var(--body-color);
+  cursor: pointer;
+}
+
+@media (min-width: 1050px) {
+  body {
+    background-color: rgb(20, 20, 20);
+  }
+}

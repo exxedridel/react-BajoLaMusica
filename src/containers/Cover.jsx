@@ -8,7 +8,7 @@ const Cover = () => {
         <h2>
           ENTREVISTA
           <br />
-          <b>Zaratustra</b>
+          <b>VarArtistName</b>
         </h2>
         <p>
           Acompáñanos a disfrutar de su hipnotizante sonido grunge. Además te

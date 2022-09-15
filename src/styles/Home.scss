@@ -1,40 +1,67 @@
-section {
-  display: flex;
-  flex-direction: column;
+div > h2 {
+  letter-spacing: 2px;
+  padding: 25px;
+  margin: 0px;
 }
 
-div > h1,
-h2 {
-  letter-spacing: 2px;
-  padding: 20px;
-  margin: 10px;
+.hero-container {
+  background-color: rgb(32, 32, 32);
 }
 
 .heading-block {
-  padding: 20px 0;
-}
-
-.heading-title {
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
-  color: white;
-  font-style: italic;
-}
-
-.heading-title > h1 {
-  padding: 12px;
+  background-color: black;
 }
 
 .middle-block {
   background-color: white;
   color: black;
+  padding-bottom: 20px;
 }
 
 .bottom-block {
-  background-color: rgb(8, 8, 8);
+  background-color: black;
+}
+
+.aside-block {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.Cover {
+  grid-area: Cover;
+}
+.Events {
+  grid-area: Events;
+}
+.Videos {
+  grid-area: Videos;
+}
+.Aside {
+  grid-area: Aside;
+}
+
+@media (min-width: 1050px) {
+  .Template {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1em 1em;
+    grid-template-areas:
+      "Cover Aside"
+      "Events Aside"
+      "Videos Aside";
+  }
+
+  .Cover,
+  .Events,
+  .Videos {
+    border-left: solid 1px grey;
+    border-radius: 9px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .Template {
+    grid-gap: 2em 3em;
+  }
 }

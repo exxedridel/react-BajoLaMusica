@@ -35,6 +35,12 @@
   gap: 20px;
   overflow-x: auto;
   padding: 20px 8px 0 8px;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 1050px) {
+  .events-card-list {
+    max-width: 66vw;
+  }
 }

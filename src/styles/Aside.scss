@@ -1,0 +1,122 @@
+@import "vars";
+
+.aside-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aside-component-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px 20px;
+}
+
+.aside-component {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 9px;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.review-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-component p {
+  padding: 0 10px;
+}
+
+.spotify {
+  max-width: 300px;
+  height: 500px;
+}
+
+.spotify > img {
+  max-width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+hr.division {
+  width: 80%;
+  border-top: 1px solid grey;
+}
+
+.tiktok,
+.instagram {
+  max-width: 300px;
+  height: 500px;
+}
+
+.aside-component > img {
+  height: 100%;
+  width: 100%vw;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
+.contact-mobile {
+  background-color: white;
+  color: black;
+  border-color: black;
+  margin-bottom: 30px;
+}
+
+.contact-mobile:hover {
+  background-color: red;
+  border-color: red;
+  color: white;
+}
+
+@media (min-width: 1050px) {
+  .aside-block {
+    background-color: black;
+    color: white;
+    max-width: 25vw;
+    border-left: solid 1px grey;
+    border-radius: 9px;
+  }
+
+  .review-title {
+    border-bottom: 1px solid var(--contrast);
+  }
+
+  .aside-component {
+    max-width: 250px;
+    //  height: 500px;
+  }
+
+  .contact-mobile {
+    background-color: black;
+    color: white;
+    border-color: red;
+    border-radius: 4px;
+  }
+  .contact-mobile:hover {
+    background-color: red;
+    border-color: red;
+  }
+
+}
+
+@media (min-width: 1250px) {
+  .aside-component {
+    max-width: 300px;
+    //  height: 500px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .aside-component {
+    max-width: 350px;
+    //  height: 500px;
+  }
+}

@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/HeaderBanner.scss";
+import "../styles/Hero.scss";
 
-const HeaderBanner = () => {
+const Hero = () => {
   return (
-    <div className="first-container">
+    <div className="hero-container">
       <img
         src="https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt="Concierto portada BLM"
@@ -19,4 +19,4 @@ const HeaderBanner = () => {
   );
 };
 
-export default HeaderBanner;
+export default Hero;
