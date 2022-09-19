@@ -17,28 +17,41 @@
    display: block;
    position: absolute;
    top: 10%;
-   left: 10%;
    font-size: 72px;
-  //  font-weight: 700;
    text-shadow: 0px 0px 20px #242424;
    color: white;
+   text-align: center;
+   padding: 0 20px;
+   letter-spacing: 2px;
  }
  
- .overlap-text {
-  display: block;
+.btn-hero {
+  background-color: transparent;
+  border-color: white;
   position: absolute;
-  top: 10%;
-  left: 10%;
-  font-size: 72px;
+  bottom: 10%;
+  font-size: 24px;
   text-shadow: 0px 0px 20px #242424;
 }
- 
+
+.btn-hero:hover {
+  background-color: transparent;
+  border-color: var(--contrast);
+}
+
+.btn-hero a:hover {
+  color: var(--contrast);
+}
+
  @media (max-width: 1073px) {
    .hero-container img {
      height: 600px;
    }
    .overlap-text {
      font-size: 64px;
+   }
+   .btn-hero {
+    font-size: 16px;
    }
  }
  
@@ -66,7 +79,9 @@
    }
    .overlap-text {
      font-size: 38px;
-     left: 6%;
+   }
+   .btn-hero {
+    font-size: 16px;
    }
  }
  
@@ -76,6 +91,5 @@
    }
    .overlap-text {
      font-size: 32px;
-     left: 4%;
    }
  }

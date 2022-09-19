@@ -48,6 +48,11 @@ body {
   cursor: pointer;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 @media (min-width: 1050px) {
   body {
     background-color: rgb(20, 20, 20);

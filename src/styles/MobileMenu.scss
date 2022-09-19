@@ -46,6 +46,11 @@
    padding: 10px 21vw;
  }
 
+ .btn-contact-mobile:hover {
+    background-color: var(--contrast);
+    color: var(--body-color);
+ }
+
 @media (min-width: 836px) {
   .mobile-menu {
     display: none;

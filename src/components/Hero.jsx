@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Hero.scss";
 
 const Hero = () => {
@@ -10,11 +11,10 @@ const Hero = () => {
       />
       <div className="overlap-text">
         <p>
-          Hola mi vro, ahora ya
-          <br />
-          estás ¡<b>bajo la música</b>!
+          AHORA ESTÁS ¡<b>BAJO LA MÚSICA</b> DE GUANAJUATO!
         </p>
       </div>
+      <button className="btn btn-hero"><Link to="about">Conoce más</Link></button>
     </div>
   );
 };

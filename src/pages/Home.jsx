@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Home.scss";
 import Hero from "../components/Hero";
 import Cover from "../containers/Cover";
@@ -42,7 +43,7 @@ const Home = () => {
           <div className="notes-card-list">
             {NotesCards.slice(0, 3)}
             <div className="center">
-              <button className="btn verMas">Ver más</button>
+              <button className="btn verMas"><Link to="notes">Ver más</Link></button>
             </div>
           </div>
         </div>

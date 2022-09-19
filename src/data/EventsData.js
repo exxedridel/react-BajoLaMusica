@@ -5,7 +5,7 @@ export default [
      description:
        'I will share with you what I call "Positively Impactful Moments of Disappointment." Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.',
      price: "$60 pesos",
-     coverImg: "https://scontent.fcyw1-1.fna.fbcdn.net/v/t39.30808-6/302017868_110785141753504_9151076810331786234_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGpRyX8s_TdK4aUdjm67uWBflnN_fOKVZd-Wc3984pVl6y0JyUrEDg8c-Uhl77dls0QLsisv-skTmT07EiwslwF&_nc_ohc=7dyIGk9nNkcAX_qR2QZ&_nc_ht=scontent.fcyw1-1.fna&oh=00_AT8b5QV5SPxBiKpF0Kp1jZK-KljovyRupGUH0nN2SUDa7w&oe=6326D6C2",
+     coverImg: "https://images.unsplash.com/photo-1608829206962-f9e9272b1f7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
      stats: {
        date: "10 SEP",
        time: "22 hrs",

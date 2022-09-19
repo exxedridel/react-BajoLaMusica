@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Cover.scss"
 
 const Cover = () => {
   return (
-    <div className="cover">
+    <Link to="videos" className="cover">
       <div className="cover-header">
         <h2>
-          ENTREVISTA
+          ENTREVISTA CON
           <br />
           <b>VarArtistName</b>
         </h2>
@@ -32,7 +33,7 @@ const Cover = () => {
           material y más, solo en BLM!
         </p>
       </div>
-    </div>
+    </Link>
   );
 };
 
