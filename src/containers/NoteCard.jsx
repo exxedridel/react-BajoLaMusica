@@ -17,11 +17,11 @@ const Card = (props) => {
         className="note-card--image"
         alt="Note image"
       />
+      <div className="note-card--category">
+        <span className="small">{props.data.stats.category}</span>
+      </div>
       <div className="note-card--title">
         <p>{props.data.title}</p>
-      </div>
-      <div className="note-card--date">
-        <span className="small">{props.data.stats.date}</span>
       </div>
     </div>
   );

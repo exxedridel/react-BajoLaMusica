@@ -1,0 +1,145 @@
+@import "vars";
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+}
+
+.background-image-holder > img {
+  width: 100vw;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.about-description {
+  max-width: 550px;
+  padding: 3em 15px;
+}
+
+.about-description > p {
+  font-size: 1.1em;
+}
+
+// 2nd section
+.directives-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 20px;
+  background-color: black;
+}
+
+.mision-container {
+  max-width: 650px;
+  padding-bottom: 3em;
+}
+
+.values-container {
+  max-width: 1400px;
+  padding-bottom: 3em;
+}
+
+.value-elements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 50px;
+}
+
+.value-ele {
+   min-width: 257px;
+}
+
+.value-ele > h4 {
+   color: var(--contrast);
+}
+
+.value-ele > p {
+  font-size: var(--sm);
+}
+
+// - - - Tablet
+@media (min-width: 883px) {
+  .about-container {
+    flex-direction: row;
+    max-width: 100vw;
+  }
+
+  .background-image-holder > img {
+    width: 40vw;
+    min-height: 400px;
+  }
+
+  .about-description {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .directives-container {
+    padding: 3em 60px;
+  }
+
+  .mision-container {
+    padding-bottom: 4em;
+  }
+
+  .value-elements {
+    gap: 30px 80px;
+  }
+}
+
+// - - - Desktop
+@media (min-width: 1250px) {
+  .background-image-holder > img {
+    width: 50vw;
+    min-height: 500px;
+  }
+
+  .about-description {
+    max-width: 600px;
+  }
+
+  .directives-container {
+    padding: 100px 87px;
+  }
+
+  .mision-container {
+    padding-bottom: 100px;
+  }
+
+  .mision-container {
+    max-width: 60%;
+  }
+
+  .mision-container > p {
+    font-size: var(--lg);
+  }
+
+  .value-elements {
+    gap: 30px 45px;
+  }
+
+  .value-ele {
+   min-width: 300px;
+}
+
+  .value-ele > h4 {
+   font-size: var(--lg);
+  }
+
+  .value-ele > p {
+    font-size: var(--md);
+  }
+}
+
+// - - - Ultra Wide
+@media (min-width: 1506px) {
+  .directives-container {
+    padding: 100px 160px;
+  }
+
+  .value-elements {
+    gap: 30px 100px;
+  }
+}

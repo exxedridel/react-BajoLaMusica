@@ -70,8 +70,18 @@ nav {
     display: none;
   }
 }
+
+@media (min-width: 882px) {
+  nav.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+}
+
 @media (min-width: 1250px) {
-  nav {
+  nav.navbar {
     padding: 3px 80px;
   }
   .navbar-right ul li a {

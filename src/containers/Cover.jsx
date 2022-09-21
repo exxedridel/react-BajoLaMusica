@@ -4,7 +4,7 @@ import "../styles/Cover.scss"
 
 const Cover = () => {
   return (
-    <Link to="videos" className="cover">
+    <Link to="interviews" className="cover">
       <div className="cover-header">
         <h2>
           ENTREVISTA CON

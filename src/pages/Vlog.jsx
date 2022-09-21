@@ -1,12 +1,17 @@
 import React from "react";
 
-const Notes = () => {
+const Vlog = () => {
   React.useEffect(() => {
     document.title = "Notas | Bajo la Música";
   }, []);
+
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <>
-      <h1>NOTAS</h1>
+      <h1>VLOG</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi unde
         quasi maiores amet error alias omnis ullam, excepturi cumque eaque,
@@ -67,4 +72,4 @@ const Notes = () => {
   );
 };
 
-export default Notes;
+export default Vlog;

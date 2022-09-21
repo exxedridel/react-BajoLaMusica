@@ -7,8 +7,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-import Notes from "./pages/Notes";
-import Videos from "./pages/Videos";
+import Vlog from "./pages/Vlog";
+import Interviews from "./pages/Interviews";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -20,8 +20,8 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="notes" element={<Notes />} />
-        <Route path="videos" element={<Videos />} />
+        <Route path="vlog" element={<Vlog />} />
+        <Route path="interviews" element={<Interviews />} />
       </Routes>
       <Footer />
     </HashRouter>

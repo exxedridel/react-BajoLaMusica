@@ -4,6 +4,10 @@ const Contact = () => {
   React.useEffect(() => {
     document.title = "Contacto | Bajo la Música";
   }, []);
+
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <h1>CONTACTO</h1>

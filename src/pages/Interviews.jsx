@@ -1,12 +1,16 @@
 import React from "react";
 
-const Videos = () => {
+const Interviews = () => {
   React.useEffect(() => {
     document.title = "Videos | Bajo la Música";
   }, []);
+
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
-      <h1>VIDEOS</h1>
+      <h1>ENTREVISTAS</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi unde
         quasi maiores amet error alias omnis ullam, excepturi cumque eaque,
@@ -67,4 +71,4 @@ const Videos = () => {
   );
 };
 
-export default Videos;
+export default Interviews;

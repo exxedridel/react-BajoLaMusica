@@ -39,11 +39,13 @@ const Home = () => {
         </div>
 
         <div className="Videos bottom-block">
-          <h2 className="center">BAJO LAS NOTAS</h2>
+          <h2 className="center">BAJO EL VLOG</h2>
           <div className="notes-card-list">
             {NotesCards.slice(0, 3)}
             <div className="center">
-              <button className="btn verMas"><Link to="notes">Ver más</Link></button>
+              <button className="btn verMas">
+                <Link to="vlog">Ver más</Link>
+              </button>
             </div>
           </div>
         </div>
