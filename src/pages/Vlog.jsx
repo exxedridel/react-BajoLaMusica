@@ -8,21 +8,33 @@ const Vlog = () => {
     document.title = "Notas | Bajo la Música";
   }, []);
 
-  React.useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
+  // React.useLayoutEffect(() => {
+  //   window.scrollTo(0, 0);
+  // });
 
   const NotesCards = postsData.map((data) => {
     return <NoteCard key={data.id} data={data} />;
   });
+  console.log(NotesCards.length);
+  const [arrayShown, setArrayShown] = React.useState(4);
+
+  function addItems() {
+    setArrayShown((prevState) => prevState + 2);
+  }
+
+  const styles = {
+    display: postsData.length > arrayShown ? "" : "none",
+  };
 
   return (
     <>
       <div className="vlog-block">
         <h2 className="center">BAJO EL VLOG</h2>
-        <div className="notes-card-list">{NotesCards.slice(0, 4)}</div>
+        <div className="notes-card-list">{NotesCards.slice(0, arrayShown)}</div>
         <div className="center">
-          <button className="btn verMas">Ver más</button>
+          <button onClick={addItems} style={styles} className="btn verMas">
+            Ver 2 más
+          </button>
         </div>
       </div>
     </>

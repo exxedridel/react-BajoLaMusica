@@ -22,7 +22,7 @@ const Aside = () => {
           />
         </div>
       </div>
-      <hr className="division"/>
+      <hr className="division" />
       <div className="aside-component-list">
         <div className="aside-component tiktok">
           <img
@@ -37,7 +37,9 @@ const Aside = () => {
           />
         </div>
       </div>
-      <button className="btn contact-mobile">SUSCRIBIRME</button>
+      <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
+        <button className="btn contact-mobile">SUSCRIBIRME</button>
+      </a>
     </div>
   );
 };

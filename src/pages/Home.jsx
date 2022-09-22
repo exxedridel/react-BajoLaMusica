@@ -28,7 +28,7 @@ const Home = () => {
       <div className="Template">
         <div className="Cover heading-block center">
           <div className="heading-title">
-            <h1>LO ÚLTIMO:</h1>
+            <h1>EXCLUSIVO BLM</h1>
           </div>
           <Cover />
         </div>
@@ -44,7 +44,7 @@ const Home = () => {
             {NotesCards.slice(0, 2)}
             <div className="center">
               <button className="btn verMas">
-                <Link to="vlog">Ver más</Link>
+                <Link to="vlog">Ver 2 más</Link>
               </button>
             </div>
           </div>
