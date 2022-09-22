@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Vlog from "./pages/Vlog";
 import Interviews from "./pages/Interviews";
+import NotFound from "./pages/NotFound";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -22,6 +23,7 @@ root.render(
         <Route path="contact" element={<Contact />} />
         <Route path="vlog" element={<Vlog />} />
         <Route path="interviews" element={<Interviews />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </HashRouter>

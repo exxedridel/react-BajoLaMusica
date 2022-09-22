@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from "react-player";
 import "../styles/NoteCard.scss";
 
 const Card = (props) => {
@@ -12,10 +13,10 @@ const Card = (props) => {
 
   return (
     <div className="note-cardi">
-      <img
-        src={`${props.data.coverImg}`}
-        className="note-card--image"
-        alt="Note image"
+      <ReactPlayer
+        url={props.data.url}
+        width="100%"
+        controls
       />
       <div className="note-card--category">
         <span className="small">{props.data.stats.category}</span>

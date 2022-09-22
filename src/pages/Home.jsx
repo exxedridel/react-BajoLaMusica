@@ -41,7 +41,7 @@ const Home = () => {
         <div className="Videos bottom-block">
           <h2 className="center">BAJO EL VLOG</h2>
           <div className="notes-card-list">
-            {NotesCards.slice(0, 3)}
+            {NotesCards.slice(0, 2)}
             <div className="center">
               <button className="btn verMas">
                 <Link to="vlog">Ver más</Link>

@@ -72,17 +72,21 @@ nav {
 }
 
 @media (min-width: 882px) {
-  nav.navbar {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  }
+  // nav.navbar {
+    // position: -webkit-sticky;
+    // position: sticky;
+    // top: 0;
+    // z-index: 1;
+  // }
 }
 
 @media (min-width: 1250px) {
   nav.navbar {
     padding: 3px 80px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
   }
   .navbar-right ul li a {
     padding: 10px 15px;
