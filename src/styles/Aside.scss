@@ -63,17 +63,22 @@ hr.division {
   border-radius: 9px;
 }
 
-.contact-mobile {
-  background-color: white;
-  color: black;
-  border-color: black;
+.btn-subscribe {
+  background-color: rgb(201, 0, 0);
+  color: white;
+  border-color: transparent;
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 
-.contact-mobile:hover {
-  background-color: red;
-  border-color: red;
+.btn-subscribe:hover {
+  background-color: rgb(201, 0, 0);
+  border-color: rgb(201, 0, 0);
   color: white;
+}
+
+.btn-subscribe:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 @media (min-width: 1050px) {
@@ -94,18 +99,6 @@ hr.division {
     max-width: 250px;
     //  height: 500px;
   }
-
-  .contact-mobile {
-    background-color: black;
-    color: white;
-    border-color: red;
-    border-radius: 4px;
-  }
-  .contact-mobile:hover {
-    background-color: red;
-    border-color: red;
-  }
-
 }
 
 @media (min-width: 1250px) {

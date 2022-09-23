@@ -5,7 +5,7 @@ export default [
     introduction:
       "Nos platica de sus inicios en la música, sus motivaciones para continuar y su visión a futuro.",
     descriptionP1:
-      "Flavio Coria hace un proyecto de rap basado en la interdisciplina.",
+      "Flavio Coria hace un proyecto de rap basado en la interdisciplina para esta nueva faceta de su vida.",
     descriptionP2:
       "Cuenta sobre su comienzo en la música, experiencias personales, y hasta los moméntos más difíciles que lo han formado como músico.",
     coverImg:

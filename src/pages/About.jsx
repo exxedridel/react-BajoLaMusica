@@ -60,7 +60,7 @@ const About = () => {
             </div>
             <div className="value-ele">
               <h4>Inclusión</h4>
-              <p>Valoramos toda forma de contenido</p>
+              <p>Apreciamos toda forma de contenido</p>
             </div>
             <div className="value-ele">
               <h4>Actualización constante</h4>

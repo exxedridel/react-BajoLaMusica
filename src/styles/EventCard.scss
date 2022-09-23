@@ -41,6 +41,16 @@
 
 @media (min-width: 1050px) {
   .events-card-list {
-    max-width: 66vw;
+    max-width: 69vw;
+  }
+}
+@media (min-width: 1446px) {
+  .events-card-list {
+    max-width: 70vw;
+  }
+}
+@media (min-width: 1669px) {
+  .events-card-list {
+    max-width: 71vw;
   }
 }

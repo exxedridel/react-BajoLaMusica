@@ -38,7 +38,7 @@ const Aside = () => {
         </div>
       </div>
       <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
-        <button className="btn contact-mobile">SUSCRIBIRME</button>
+        <button className="btn btn-subscribe">SUSCRIBIRME</button>
       </a>
     </div>
   );

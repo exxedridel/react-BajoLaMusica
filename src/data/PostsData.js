@@ -13,7 +13,7 @@ export default [
   },
   {
     id: 19,
-    title: '"Mi papá me pasaba sus métodos antes de mis exámenes de música"/ Flavio Coria (F.L.A.V.)',
+    title: '"Mi papá me pasaba sus métodos antes de mis exámenes de música" | Flavio Coria (F.L.A.V.)',
     description:
       'Proyecto de rap orgullosamente nacional; F.L.A.V nos platica sobre sus inicios, salir de su lugar natal, su paso por el estudio formal de la música, viajes a otros paises y como dedicarse a esta increible profesion',
     url: '"https://www.youtube.com/watch?v=QWjiEkqWDMs"',

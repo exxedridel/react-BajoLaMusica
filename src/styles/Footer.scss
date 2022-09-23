@@ -8,9 +8,25 @@
   align-items: center;
 }
 
+.right {
+  text-align: center;
+  min-width: 49px;
+  max-width: 50px;
+  margin-left: 40px;
+}
+
+.right > p {
+  font-size: 12px;
+}
+
 .right img {
   width: 36px;
-  margin-left: 35px;
+  
+}
+
+.right:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @media (min-width: 1200px) {

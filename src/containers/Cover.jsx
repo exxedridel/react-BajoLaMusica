@@ -13,6 +13,7 @@ const Cover = (props) => {
           <b>{props.data.artist}</b>
         </h2>
         <p>{props.data.introduction}</p>
+        <p className="pink">Clic en este post.</p>
       </div>
       <div className="cover-image">
         <img

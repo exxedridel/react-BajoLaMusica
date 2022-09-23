@@ -33,7 +33,7 @@ const Home = () => {
       <div className="Template">
         <div className="Cover heading-block center">
           <div className="heading-title">
-            <h1>EXCLUSIVO BLM</h1>
+            <h1>EXCLUSIVA BLM</h1>
           </div>
           {CoverCard.slice(0, 1)}
         </div>
@@ -48,10 +48,16 @@ const Home = () => {
           <div className="notes-card-list">
             {NotesCards.slice(0, 2)}
             <div className="center">
-              <button className="btn verMas">
-                <Link to="vlog">Ver 2 más</Link>
-              </button>
+              <Link to="vlog">
+                <button className="btn verMas">Ver 1 más</button>
+              </Link>
             </div>
+          </div>
+          <div className="subscribe-home center">
+            <p>Apóyanos con tu suscripción 👍</p>
+            <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
+              <button className="btn btn-subscribe">SUSCRIBIRME</button>
+            </a>
           </div>
         </div>
         <div className="Aside">

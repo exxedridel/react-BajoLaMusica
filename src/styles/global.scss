@@ -24,7 +24,7 @@ body {
 }
 
 .large {
-  font-size: var(--large);
+  font-size: var(--lg);
 }
 
 .bold {
@@ -46,6 +46,10 @@ body {
   background-color: var(--contrast);
   color: var(--body-color);
   cursor: pointer;
+}
+
+.pink {
+  color: pink;
 }
 
 a {

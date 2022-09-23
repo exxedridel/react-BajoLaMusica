@@ -1,6 +1,6 @@
 div > h2 {
   letter-spacing: 2px;
-  padding: 25px 0;
+  padding: 28px 0;
   margin: 0px;
 }
 
@@ -34,6 +34,10 @@ div > h2 {
 .verMas a:hover {
   color: black;
 }
+
+.subscribe-home {
+  padding-bottom: 30px;
+ }
 
 .Cover {
   grid-area: Cover;
@@ -70,6 +74,6 @@ div > h2 {
 
 @media (min-width: 1250px) {
   .Template {
-    grid-gap: 2em 3em;
+    grid-gap: 2em 2.3em;
   }
 }
