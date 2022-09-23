@@ -37,7 +37,7 @@ export default [
   },
   {
     id: 17,
-    title: '"Mi mama, una mujer grande pero como todos tuvo sus defectos" | Proyecto Niños don Bosco | Fu.la.no.de.th.aa.l ',
+    title: '"Mi mamá, una mujer grande pero como todos tuvo sus defectos" | Proyecto Niños don Bosco | Fu.la.no.de.th.aa.l ',
     description:
       'Jonathan Miguel Rangel Rivera,  A.K.A "Fulano de thal" nos comparte un poco de sus inicios en el Rap, su crecimiento personal y sus planes a futuro.',
     url: '"https://www.youtube.com/watch?v=XbF17mrP3BA&t"',
@@ -73,7 +73,7 @@ export default [
   },
   {
     id: 14,
-    title: 'Vlad nos mando nuestro primer disco desde Moscú',
+    title: 'Vlad nos mandó nuestro primer disco desde Moscú',
     description:
       'La banda de death metal "Symbiotic" nos comparte como de donde vienen la maldad, las ideas y la oscuridad que podemos escuchar en su música. Sin duda una de las bandas mas chingonas de la escena metalera de metal. Pasen a escuchar un bonito audio crudo, tal cual como suena en vivo. Un deleite sonoro que recorre tu cuerpo, hace mover la cabeza y moshear como un mal nacido',
     url: '"https://www.youtube.com/watch?v=TLvkQYcqzqA"',

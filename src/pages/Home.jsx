@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/Home.scss";
 import Hero from "../components/Hero";
 import Cover from "../containers/Cover";
+import interviewsData from "../data/InterviewsData.js";
 import NoteCard from "../containers/NoteCard";
 import postsData from "../data/PostsData.js";
 import EventCard from "../containers/EventCard";
@@ -13,6 +14,10 @@ const Home = () => {
   React.useEffect(() => {
     document.title = "Bajo la Música | Home ";
   }, []);
+
+  const CoverCard = interviewsData.map((data) => {
+    return <Cover key={data.id} data={data} />;
+  });
 
   const NotesCards = postsData.map((data) => {
     return <NoteCard key={data.id} data={data} />;
@@ -30,7 +35,7 @@ const Home = () => {
           <div className="heading-title">
             <h1>EXCLUSIVO BLM</h1>
           </div>
-          <Cover />
+          {CoverCard.slice(0, 1)}
         </div>
 
         <div className="Events middle-block">

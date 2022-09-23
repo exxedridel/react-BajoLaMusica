@@ -15,7 +15,7 @@ const Vlog = () => {
   const NotesCards = postsData.map((data) => {
     return <NoteCard key={data.id} data={data} />;
   });
-  console.log(NotesCards.length);
+  
   const [arrayShown, setArrayShown] = React.useState(4);
 
   function addItems() {
