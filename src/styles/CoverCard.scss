@@ -91,6 +91,9 @@
   .container {
     align-items: center;
   }
+  .exclusive-stripe {
+    min-width: 900px;
+  }
 }
 @media (min-width: 1100px) {
   .hero-container-Inter img {
