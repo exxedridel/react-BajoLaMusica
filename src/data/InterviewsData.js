@@ -8,8 +8,7 @@ export default [
       "Flavio Coria hace un proyecto de rap basado en la interdisciplina para esta nueva faceta de su vida.",
     descriptionP2:
       "Cuenta sobre su comienzo en la música, experiencias personales, y hasta los moméntos más difíciles que lo han formado como músico.",
-    coverImg:
-      "https://scontent.fcyw1-1.fna.fbcdn.net/v/t39.30808-6/273649883_4955554367839752_4440100174751858116_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=atkJdI451wMAX_SETFS&_nc_ht=scontent.fcyw1-1.fna&oh=00_AT-CI85FNYs0nliNQ-ECDPEpRJ53037E23fXdIyVSm-aWw&oe=63313796",
+    coverImg: "https://images2.imgbox.com/5b/2f/oSCgZZdO_o.jpg",
     url: '"https://www.youtube.com/watch?v=QWjiEkqWDMs"',
     from: "Huaniqueo, Mich.",
     articleP1:
@@ -59,7 +58,7 @@ export default [
   },
   {
     id: 1,
-    artist: "TU PADRASTRO",
+    artist: "ArtistName",
     introduction:
       "Nos platica de sus inicios en la música, sus motivaciones para continuar y su visión a futuro.",
     descriptionP1:

@@ -41,7 +41,7 @@ const Interviews = () => {
       </div>
       {CoverCards[currentArtist]}
       <div className="container navigation-section">
-        <h2 className="center">También checa las demás entrevistas</h2>
+        <h2 className="center">BAJO LA ENTREVISTA</h2>
         <div className="navigation-buttons">
           <button
             onClick={prevArtist}
