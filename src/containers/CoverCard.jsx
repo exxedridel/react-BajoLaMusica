@@ -24,7 +24,7 @@ const CoverCard = (props) => {
             <p>{props.data.descriptionP2}</p>
           </div>
           <div className="container">
-            <p>Sin más preambulo aquí tienes la entrevista que tuvimos la oportunidad de realizar:</p>
+            <p>Aquí tienes la entrevista que tuvimos la oportunidad de realizar:</p>
             <div className="video video-Inter">
               <ReactPlayer url={props.data.url} controls />
             </div>
@@ -42,7 +42,7 @@ const CoverCard = (props) => {
           <div className="closing">
             <p>{props.data.closing}</p>
           </div>
-          <p><b>Apoya su trabajo siguiendo sus redes 🙂</b></p>
+          <p><b>Apoya su trabajo siguiendo sus redes:</b></p>
           <div className="artist-links">
             <ul>
               <li>
@@ -56,7 +56,6 @@ const CoverCard = (props) => {
               </li>
             </ul>
           </div>
-          <hr />
         </div>
       </div>
     </>

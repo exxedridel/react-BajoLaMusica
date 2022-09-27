@@ -54,7 +54,7 @@ const Home = () => {
             </div>
           </div>
           <div className="subscribe-home center">
-            <p>Apóyanos con tu suscripción 👍</p>
+            <p>Apóyanos con tu suscripción</p>
             <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
               <button className="btn btn-subscribe">SUSCRIBIRME</button>
             </a>

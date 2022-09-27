@@ -22,7 +22,7 @@ const Vlog = () => {
     setArrayShown((prevState) => prevState + 1);
   }
 
-  const styles = {
+  const hideButton = {
     display: postsData.length > arrayShown ? "" : "none",
   };
 
@@ -32,12 +32,12 @@ const Vlog = () => {
         <h2 className="center">BAJO EL VLOG</h2>
         <div className="notes-card-list">{NotesCards.slice(0, arrayShown)}</div>
         <div className="center">
-          <button onClick={addItems} style={styles} className="btn verMas">
+          <button onClick={addItems} style={hideButton} className="btn verMas">
             Ver 1 más
           </button>
         </div>
         <div className="subscribe-vlog center">
-          <p>Apoyarnos con tu suscripción es gratis 🥴</p>
+          <p>Apóyanos con tu suscripción</p>
           <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
             <button className="btn btn-subscribe">SUSCRIBIRME</button>
           </a>

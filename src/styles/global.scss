@@ -56,3 +56,13 @@ a {
   color: white;
   text-decoration: none;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 875px) {
+  .container {
+    align-items: center;
+  }
+}

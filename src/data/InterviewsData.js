@@ -30,7 +30,7 @@ export default [
   },
   {
     id: 2,
-    artist: "F.L.A.V",
+    artist: "RXNDE AKOZTA",
     introduction:
       "Nos platica de sus inicios en la música, sus motivaciones para continuar y su visión a futuro.",
     descriptionP1:
@@ -59,7 +59,7 @@ export default [
   },
   {
     id: 1,
-    artist: "F.L.A.V",
+    artist: "TU PADRASTRO",
     introduction:
       "Nos platica de sus inicios en la música, sus motivaciones para continuar y su visión a futuro.",
     descriptionP1:

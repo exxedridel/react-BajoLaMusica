@@ -11,7 +11,6 @@ const Hero = () => {
       .then((res) => res.json())
       .then((data) => {
         setHeroImage(data.urls.full)
-        console.log("hola")
       });
   }, []);
   // "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"

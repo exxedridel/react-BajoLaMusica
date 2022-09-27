@@ -4,7 +4,6 @@ import "../styles/Footer.scss";
 import icon from "../assets/icons/icon.png";
 
 function goTop() {
-  console.log("pressed")
   window.scrollTo(0, 0);
 }
 

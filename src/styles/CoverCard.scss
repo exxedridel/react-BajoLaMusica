@@ -31,8 +31,7 @@
 }
 
 .cover-Inter {
-  max-width: 900px;
-  margin-bottom: 40px;
+  max-width: 850px;
 }
 
 .cover-Inter p {
@@ -41,12 +40,15 @@
 }
 
 .cover-description-Inter {
-  margin: 30px 0;
+  max-width: 100%;
+  margin: 30px 30px;
   background-color: rgba(220, 20, 60, 0.247);
-//   color: black;
   font-size: var(--lg);
-//   font-weight: bold;
   border-radius: 5px;
+}
+
+.cover-description-Inter p {
+  padding: 0px 30px;
 }
 
 .cover-description-Inter,
@@ -58,11 +60,6 @@
 .artist-links {
   padding: 0 0 15px 20px;
   line-height: 2;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
 }
 
 .video {
@@ -86,13 +83,7 @@
 @media (min-width: 875px) {
   .hero-container-Inter img {
     width: 65%;
-    height: 700px;
-  }
-  .container {
-    align-items: center;
-  }
-  .exclusive-stripe {
-    min-width: 900px;
+    height: 650px;
   }
 }
 @media (min-width: 1100px) {

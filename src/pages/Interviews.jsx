@@ -12,12 +12,26 @@ const Interviews = () => {
     window.scrollTo(0, 0);
   });
 
+  const [currentArtist, setCurrentArtist] = React.useState(0);
+
+  function prevArtist() {
+    setCurrentArtist(currentArtist - 1);
+  }
+
+  function nextArtist() {
+    setCurrentArtist(currentArtist + 1);
+  }
+
+  const hideBtnAnterior = {
+    display: currentArtist == 0 ? "none" : "",
+  };
+  const hideBtnSiguiente = {
+    display: currentArtist == interviewsData.length - 1 ? "none" : "",
+  };
+
   const CoverCards = interviewsData.map((data) => {
     return <CoverCard key={data.id} data={data} />;
   });
-
-  // const [arrayShown, setArrayShown] = React.useState(2);
-
   return (
     <div className="heading-block-Inter">
       <div className="container">
@@ -25,7 +39,29 @@ const Interviews = () => {
           <h1>EXCLUSIVA BLM</h1>
         </div>
       </div>
-      {CoverCards.slice(0, 1)}
+      {CoverCards[currentArtist]}
+      <div className="container navigation-section">
+        <h2 className="center">También checa las demás entrevistas</h2>
+        <div className="navigation-buttons">
+          <button
+            onClick={prevArtist}
+            style={hideBtnAnterior}
+            className="btn btn-prev"
+          >
+            Anterior
+          </button>
+
+          <button
+            onClick={nextArtist}
+            style={hideBtnSiguiente}
+            className="btn btn-next"
+          >
+            {interviewsData
+              .map((data) => data.artist)
+              .slice(currentArtist + 1, currentArtist + 2)}
+          </button>
+        </div>
+      </div>
       <div className="subscribe-home center">
         <p>Apóyanos con tu suscripción a BLM</p>
         <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
