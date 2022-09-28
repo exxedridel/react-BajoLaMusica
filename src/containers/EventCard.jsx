@@ -2,16 +2,10 @@ import React from "react";
 import "../styles/EventCard.scss";
 
 const Card = (props) => {
-  let badgeText;
-  if (props.data.openSpots === 0) {
-    badgeText = "AGOTADO";
-  } else if (props.data.location === "Online") {
-    badgeText = "ONLINE";
-  }
+  
 
   return (
     <div className="cardi">
-      {badgeText && <div className="card--badge">{badgeText}</div>}
       <img src={`${props.data.coverImg}`} className="card--image" alt="Imagen del flyer"/>
       <div className="center">
         <span className="card--date">{props.data.stats.date} •&nbsp;</span>

@@ -18,7 +18,7 @@ const Cover = (props) => {
       <div className="cover-image">
         <img
           src={props.data.coverImg}
-          alt="Foto de entrevista más reciente"
+          alt={`Foto de ${props.data.artist}`}
         />
       </div>
       <div className="cover-description">

@@ -33,7 +33,7 @@ const Home = () => {
       <div className="Template">
         <div className="Cover heading-block center">
           <div className="heading-title">
-            <h1>EXCLUSIVA BLM</h1>
+            <h1>LO ÚLTIMO BLM</h1>
           </div>
           {CoverCard.slice(0, 1)}
         </div>

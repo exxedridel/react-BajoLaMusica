@@ -1,42 +1,13 @@
-.exclusive-stripe {
-  max-width: 850px;
-  margin: 20px 0;
-}
-
-.exclusive-stripe > h1 {
-  margin: 0;
-}
-
 .navigation-section {
   background-color: black;
-  padding: 30px 15px 60px;
+  padding: 30px 15px 50px;
   margin-bottom: 60px;
 }
 
-.navigation-buttons {
+.artists-buttons {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: nowrap;
   gap: 20px;
-}
-
-.btn-prev,
-.btn-next {
-  background-color: transparent;
-  color: white;
-}
-
-.btn-next {
-  border-color: rgb(110, 12, 129);
-  box-shadow: 0px 0px 8px  crimson;
-}
-
-.btn-next:hover {
-  background-color: transparent;
-  color: var(--contrast);
-}
-
-@media (min-width: 875px) {
-  .exclusive-stripe {
-    min-width: 850px;
-  }
+  overflow-x: auto;
+  padding: 20px 8px 15px 8px;
 }

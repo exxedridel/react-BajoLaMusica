@@ -1,0 +1,13 @@
+.btn-next {
+   width: max-content;
+   padding: 10px 15px;
+   background-color: transparent;
+   color: white;
+   border-color: rgb(110, 12, 129);
+   box-shadow: 0px 0px 8px  crimson;
+ }
+ 
+ .btn-next:hover {
+   background-color: transparent;
+   color: var(--contrast);
+ }
