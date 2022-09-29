@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Interviews.scss";
 import CoverCard from "../containers/CoverCard";
 import ArtistButton from "../containers/ArtistButton";
-import interviewsData from "../data/InterviewsData.js";
+import interviewsData from "../data/InterviewsData";
 
 const Interviews = () => {
   React.useEffect(() => {

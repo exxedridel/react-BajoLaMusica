@@ -8,6 +8,13 @@
   align-items: center;
 }
 
+.cardi > a {
+  text-align: center;
+  font-size: var(--sm);
+  color: black;
+  padding-bottom: 10px;
+}
+
 .card--image {
   min-height: 262px;
   width: 100%;
@@ -17,10 +24,11 @@
 }
 
 .card--title {
-  margin-top: 5px;
+  margin-top: 8px;
   display: flex;
   align-items: center;
   min-height: 80px;
+  padding-bottom: 12px;
 }
 
 .card--price {

@@ -19,15 +19,12 @@
   margin: 20px 0;
 }
 
-// .cover {
-//   border: dotted 2px var(--contrast);
-// }
-
 .cover-header b {
   color: var(--contrast);
 }
 .cover-image > img {
   width: 95vw;
+  height: 65vh;
   padding: 20px;
   object-fit: cover;
 }
