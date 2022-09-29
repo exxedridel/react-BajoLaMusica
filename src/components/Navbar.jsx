@@ -35,9 +35,9 @@ const Navbar = () => {
             <li>
               <Link to="about">ACERCA</Link>
             </li>
-            <Link to="contact">
+            <a href="https://wa.me/message/QNWKISFC6MBJI1">
               <button className="btn btn-contact">Contáctanos</button>
-            </Link>
+            </a>
           </ul>
         </div>
         <img

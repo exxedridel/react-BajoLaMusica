@@ -36,11 +36,10 @@ const Interviews = () => {
   return (
     <div className="heading-block-Inter">
       <div className="container">
-        {/* h1 exclusiva blm*/}
       </div>
       {CoverCards[currentArtist]}
       <div className="container navigation-section">
-        <h2 className="center">BAJO LA ENTREVISTA</h2>
+        <h2 className="center">BAJO LA ENTREVISTA <br /> CON:</h2>
         <div className="artists-buttons">{ArtistButtons}</div>
       </div>
       <div className="subscribe-home center">

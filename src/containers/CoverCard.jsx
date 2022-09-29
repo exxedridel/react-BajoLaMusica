@@ -7,7 +7,7 @@ const CoverCard = (props) => {
     <>
       <div className="hero-container-Inter">
         <div className="exclusive-stripe">
-          <span>{props.data.exclusive && "EXCLUSIVA BLM"}</span>
+          <span><b>{props.data.exclusive && "EXCLUSIVA BLM"}</b></span>
         </div>
         <img src={props.data.coverImg} alt={`Foto de ${props.data.artist}`} />
         <div className="overlap-text-Inter">
@@ -18,7 +18,7 @@ const CoverCard = (props) => {
           </p>
           <p className="medium">{props.data.from}</p>
         </div>
-        <p className="small">Foto: {props.data.photoBy}</p>
+        <span className="photo-by">Foto: {props.data.photoBy}</span>
       </div>
       <div className="container">
         <div className="cover-Inter">

@@ -30,9 +30,12 @@ const MobileMenu = ({ handleToggleMobile }) => {
         </ul>
       </div>
       <div className="btn-e">
-        <Link to="contact" onClick={handleToggleMobile}>
+        <a
+          href="https://wa.me/message/QNWKISFC6MBJI1"
+          onClick={handleToggleMobile}
+        >
           <button className="btn-contact-mobile">Contáctanos</button>
-        </Link>
+        </a>
       </div>
     </div>
   );

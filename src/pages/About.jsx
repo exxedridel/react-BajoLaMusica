@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/About.scss";
 import BLM_image from "../assets/images/BLM-image.png";
+import whatsapp from "../assets/icons/whatsapp-icon.png";
 
 const About = () => {
   React.useEffect(() => {
@@ -67,6 +68,11 @@ const About = () => {
               <p>Nunca pararemos de aprender</p>
             </div>
           </div>
+        </div>
+        <div className="whatsapp">
+          <a href="https://wa.me/message/QNWKISFC6MBJI1">
+            <img src={whatsapp} alt="whatsapp logo" />
+          </a>
         </div>
       </div>
     </>

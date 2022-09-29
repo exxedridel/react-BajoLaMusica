@@ -4,10 +4,10 @@ export default [
     artist: "RXNDE AKOZTA",
     exclusive: false,
     introduction: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab deserunt necessitatibus, voluptas quidem iste minus ipsam obcaecati distinctio, quasi sunt aliquid.",
-    descriptionP1: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab deserunt necessitatibus, voluptas quidem iste minus ipsam obcaecati distinctio, quasi sunt aliquid nam vel corporis dolore rem, enim illo harum rerum assumenda.",
-    descriptionP2: "",
+    descriptionP1: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab deserunt necessitatibus, voluptas quidem iste minus ipsam obcaecati distinctio.",
+    descriptionP2: "De la court , quasi sunt aliquid nam vel corporis dolore rem, enim illo harum rerum assumenda asumadre.",
     coverImg: "https://1.bp.blogspot.com/-8bUIGAzJqcw/VwGvWV-qtLI/AAAAAAAAAR4/w5UL1flyrT0krtbJ-ntB22v_vowMPupcA/s1600/rxande%2Bakpzta.jpg",
-    photoBy: "",
+    photoBy: "Cortesía",
     url: '""',
     from: "La Habana, Cuba",
     articleP1: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab deserunt necessitatibus, voluptas quidem iste minus ipsam obcaecati distinctio, quasi sunt aliquid nam vel corporis dolore rem, enim illo harum rerum assumenda.",
@@ -15,7 +15,7 @@ export default [
     articleP3: "",
     url2: '""',
     closing: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab deserunt necessitatibus, voluptas quidem iste minus ipsam obcaecati distinctio, quasi sunt aliquid nam vel corporis dolore rem, enim illo harum rerum assumenda.",
-    media1: "link1",
+    media1: "Link1",
     link1: "",
     media2: "link2",
     link2: "",
@@ -25,15 +25,15 @@ export default [
   {
     id: 2,
     artist: "F.L.A.V.",
-    exclusive: false,
+    exclusive: true,
     introduction:
-      "Nos platica de sus inicios en la música, sus motivaciones para continuar y su visión a futuro.",
+      "Nos platica de sus inicios en la música, sus motivaciones y su visión a futuro.",
     descriptionP1:
-      "Flavio Coria hace un proyecto de rap basado en la interdisciplina.",
+      "Flavio Coria hace un proyecto de rap basándose en la interdisciplina de las artes.",
     descriptionP2:
       "Cuenta sobre su comienzo en la música, experiencias personales, y hasta los moméntos más difíciles que lo han formado como músico.",
     coverImg: "https://images2.imgbox.com/5b/2f/oSCgZZdO_o.jpg",
-    photoBy: "Cedida por el artista",
+    photoBy: "Cortesía",
     url: '"https://www.youtube.com/watch?v=QWjiEkqWDMs"',
     from: "Michoacán, México.",
     articleP1:
@@ -55,7 +55,7 @@ export default [
   {
     id: 1,
     artist: "Fantom Grooves",
-    exclusive: false,
+    exclusive: true,
     introduction: "",
     descriptionP1: "",
     descriptionP2: "",
