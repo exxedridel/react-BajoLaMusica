@@ -13,18 +13,32 @@ import Aside from "../components/Aside";
 const Home = () => {
   React.useEffect(() => {
     document.title = "Bajo la Música | Home ";
+    console.log(date)
   }, []);
 
   const CoverCard = interviewsData.map((data) => {
     return <Cover key={data.id} data={data} />;
   });
 
-  const NotesCards = postsData.map((data) => {
-    return <NoteCard key={data.id} data={data} />;
-  });
+  const date = new Date();
+  const todayDayNumber = date.getDate();
+  const todayMonth = date.getMonth() + 1;
+  const todayYear = date.getFullYear();
 
   const EventsCards = eventsData.map((data) => {
-    return <EventCard key={data.id} data={data} />;
+    if (data.date.fullYear >= todayYear) {
+      if (data.date.month > todayMonth) {
+        return <EventCard key={data.id} data={data} todayDay={todayDayNumber} todayMonth={todayMonth}/>;
+      } else if (data.date.month === todayMonth) {
+        if (data.date.day >= todayDayNumber) {
+          return <EventCard key={data.id} data={data} todayDay={todayDayNumber} todayMonth={todayMonth}/>;
+        }
+      }
+    }
+  });
+
+  const NotesCards = postsData.map((data) => {
+    return <NoteCard key={data.id} data={data} />;
   });
 
   return (
@@ -35,7 +49,7 @@ const Home = () => {
           <div className="heading-title">
             <h1>LO ÚLTIMO BLM</h1>
           </div>
-          {CoverCard.slice(0, 1)}
+          {CoverCard[0]}
         </div>
 
         <div className="Events middle-block">
