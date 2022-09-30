@@ -34,13 +34,6 @@
 
 .spotify {
   max-width: 300px;
-  height: 500px;
-}
-
-.spotify > img {
-  max-width: 300px;
-  height: 400px;
-  object-fit: cover;
 }
 
 hr.division {
@@ -91,6 +84,10 @@ hr.division {
   .review-title {
     border-bottom: 1px solid var(--contrast);
     padding: 25px 0;
+  }
+
+  .spotify {
+    padding-top: 20px;
   }
 
   .aside-component {

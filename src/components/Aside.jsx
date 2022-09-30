@@ -5,21 +5,17 @@ const Aside = () => {
   return (
     <div className="aside-block">
       <div className="review-component">
-        <h2 className="review-title center">TE RECOMENDAMOS</h2>
+        <h2 className="review-title center">ÁLBUM DEL MES</h2>
         <div className="aside-component spotify">
-          <div className="album-stats">
-            <p className="center">VarArtistName</p>
-            <p>
-              <span>VarAlbumName - álbum</span>
-              <br />
-              <span>VarLenght</span>
-            </p>
-          </div>
-          <img
-            src="https://images.unsplash.com/photo-1575836352530-a678424473bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=867&q=80"
-            className="aside-component-img"
-            alt="Componente Spotify"
-          />
+          <iframe
+            src="https://open.spotify.com/embed?uri=spotify:album:0rre7z2j7c3zbxasPRhshi"
+            width="300"
+            height="380"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <p className="center">(drop down info)</p>
         </div>
       </div>
       <hr className="division" />
