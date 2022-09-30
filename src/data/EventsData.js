@@ -2,7 +2,7 @@ export default [
   {
     id: 1,
     title:
-      '"Chicos que Lloran" | Tributo a My Chemical Romance, en La Llamarada Madero',
+      'Los Chicos Que Lloran, Tributo a My Chemical Romance, en La Llamarada Madero',
     price: "$60 pesos",
     coverImg:
       "https://images.unsplash.com/photo-1608829206962-f9e9272b1f7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
