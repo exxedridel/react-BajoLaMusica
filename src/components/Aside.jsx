@@ -3,7 +3,7 @@ import "../styles/Aside.scss";
 import AlbumsData from "../data/AlbumsData";
 
 const Aside = () => {
-  const [isShown, setIsShown] = React.useState(true);
+  const [isShown, setIsShown] = React.useState(false);
 
   function toggleShown() {
     setIsShown((prevShown) => !prevShown);
