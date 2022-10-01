@@ -1,5 +1,17 @@
 export default [
   {
+    id: 21,
+    title: 'Vida de Caimán | ft. Diego Alexis Zárate',
+    description:
+      'Entrevista llevada a cabo el 19 de agosto de 2022 en La Llamarada, León, Gto.',
+    url: '"https://www.youtube.com/watch?v=BOzECNoRbio"',
+    coverImg: "",
+    stats: {
+      category: "Podcast",
+    },
+    location: "León, GTO",
+  },
+  {
     id: 20,
     title: 'RXNDE AKOZTA / Ajedrez y Migración entrevista por Josse Fellini',
     description:

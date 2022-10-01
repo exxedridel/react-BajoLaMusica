@@ -95,4 +95,36 @@ export default [
     time: "22 hrs",
     location: "León, GTO",
   },
+  {
+    id: 7,
+    title:
+      'Los Chicos Que Lloran, Tributo a My Chemical Romance, en La Llamarada Madero',
+    price: "$60 pesos",
+    coverImg:
+      "https://images.unsplash.com/photo-1608829206962-f9e9272b1f7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    link: "https://www.facebook.com/events/587673002962680/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22search%22%7D%2C%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22search%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+    date: {
+      day: 4,
+      month: 11,
+      fullYear: 2022,
+    },
+    time: "22 hrs",
+    location: "León, GTO",
+  },
+  {
+    id: 8,
+    title:
+      'Los Chicos Que Lloran, Tributo a My Chemical Romance, en La Llamarada Madero',
+    price: "$60 pesos",
+    coverImg:
+      "https://images.unsplash.com/photo-1592245757977-af178e5af7f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    link: "https://www.facebook.com/events/587673002962680/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22search%22%7D%2C%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22search%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+    date: {
+      day: 5,
+      month: 11,
+      fullYear: 2022,
+    },
+    time: "22 hrs",
+    location: "León, GTO",
+  },
 ];

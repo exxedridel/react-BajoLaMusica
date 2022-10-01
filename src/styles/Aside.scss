@@ -18,7 +18,7 @@
   flex-direction: column;
   position: relative;
   border-radius: 9px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -28,12 +28,28 @@
   align-items: center;
 }
 
-.review-component p {
-  padding: 0 10px;
-}
-
 .spotify {
   max-width: 300px;
+}
+
+.btn-review {
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  color: black;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 7px 12px;
+  margin-bottom: 15px;
+}
+
+.review-description {
+  font-size: var(--sm);
+  // text-align: center;
+  border: 1px solid grey;
+  margin: 0 8px 8px;
+  padding: 0 8px;
+  max-width: 500px;
 }
 
 hr.division {
@@ -49,7 +65,6 @@ hr.division {
 
 .aside-component > img {
   height: 100%;
-  width: 100%vw;
   object-fit: cover;
   border-radius: 9px;
 }
@@ -90,9 +105,14 @@ hr.division {
     padding-top: 20px;
   }
 
+  .btn-review {
+    color: white;
+    border-color: white;
+  }
+
+  // temp
   .aside-component {
     max-width: 250px;
-    //  height: 500px;
   }
 }
 
@@ -101,11 +121,17 @@ hr.division {
     max-width: 300px;
     //  height: 500px;
   }
+  .review-description {
+    max-width: 300px;
+  }
 }
 
 @media (min-width: 1600px) {
   .aside-component {
     max-width: 350px;
     //  height: 500px;
+  }
+  .review-description {
+    max-width: 350px;
   }
 }
