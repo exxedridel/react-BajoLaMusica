@@ -4,24 +4,6 @@
   align-items: center;
 }
 
-.aside-component-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin: 0px 20px;
-}
-
-.aside-component {
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  border-radius: 9px;
-  margin-bottom: 20px;
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
-}
-
 .review-component {
   display: flex;
   flex-direction: column;
@@ -30,6 +12,12 @@
 
 .review-title {
   margin: 0 3px;
+}
+
+.spotify {
+  display: flex;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
 }
 
 .btn-review {
@@ -57,19 +45,22 @@ hr.division {
   border-top: 1px solid grey;
 }
 
+.aside-component-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0px 20px;
+}
+
 .tiktok {
   max-width: 100%;
+  overflow-x: hidden;
 }
 
 .instagram {
-  max-width: 300px;
-  height: 500px;
-}
-
-.aside-component > img {
-  height: 100%;
-  object-fit: cover;
-  border-radius: 9px;
+  margin: 20px 0 0;
+  overflow-x: hidden;
 }
 
 .btn-subscribe {
@@ -98,57 +89,50 @@ hr.division {
     border-left: solid 1px grey;
     border-radius: 9px;
   }
-
   .review-title {
     border-bottom: 1px solid var(--contrast);
     padding: 25px 0;
   }
-
   .spotify {
     padding-top: 20px;
   }
-
   .btn-review {
     color: white;
     border-color: white;
   }
-
-  // temp
-  .aside-component {
-    max-width: 250px;
-  }
-
-  .tiktok {
-    max-width: 256px;
+  .tiktok,
+  .instagram {
+    max-width: 259px;
   }
 }
 
-
+@media (min-width: 1136px) {
+  .tiktok,
+  .instagram {
+    max-width: 280px;
+  }
+}
 
 @media (min-width: 1250px) {
-  .aside-component {
-    max-width: 300px;
-    //  height: 500px;
-  }
   .review-description {
     max-width: 300px;
   }
-  // .tiktok {
-  //   max-width: 310px;
-    
-  // }
+  .tiktok,
+  .instagram {
+    max-width: 310px;
+  }
 }
 
 @media (min-width: 1313px) {
-  .tiktok {
+  .tiktok,
+  .instagram {
     max-width: 100%;
   }
 }
 
 @media (min-width: 1600px) {
-  .aside-component {
-    max-width: 350px;
-    //  height: 500px;
+  .review-description {
+    font-size: var(--md);
   }
   .review-description {
     max-width: 350px;
