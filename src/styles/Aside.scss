@@ -9,7 +9,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  margin: 40px 20px;
+  margin: 0px 20px;
 }
 
 .aside-component {
@@ -28,8 +28,8 @@
   align-items: center;
 }
 
-.spotify {
-  max-width: 300px;
+.review-title {
+  margin: 0 3px;
 }
 
 .btn-review {
@@ -57,7 +57,10 @@ hr.division {
   border-top: 1px solid grey;
 }
 
-.tiktok,
+.tiktok {
+  max-width: 100%;
+}
+
 .instagram {
   max-width: 300px;
   height: 500px;
@@ -114,7 +117,13 @@ hr.division {
   .aside-component {
     max-width: 250px;
   }
+
+  .tiktok {
+    max-width: 256px;
+  }
 }
+
+
 
 @media (min-width: 1250px) {
   .aside-component {
@@ -123,6 +132,16 @@ hr.division {
   }
   .review-description {
     max-width: 300px;
+  }
+  // .tiktok {
+  //   max-width: 310px;
+    
+  // }
+}
+
+@media (min-width: 1313px) {
+  .tiktok {
+    max-width: 100%;
   }
 }
 

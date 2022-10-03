@@ -1,4 +1,4 @@
-import React from "react";
+import React, { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import "./styles/global.scss";
@@ -14,7 +14,7 @@ import NotFound from "./pages/NotFound";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-
+  <StrictMode>
     <HashRouter>
       <Navbar />
       <Routes>
@@ -27,5 +27,5 @@ root.render(
       </Routes>
       <Footer />
     </HashRouter>
-  
+  </StrictMode>
 );
