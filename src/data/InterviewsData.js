@@ -6,7 +6,7 @@ export default [
     introduction: "Rxnde Akozta nos visitó por segunda ocasión en León, Guanajuato donde hizo un espacio para responder unas preguntas.",
     descriptionP1: "El MC underground por definición y de los más grandes contribuyentes al movimiento del rap en español.",
     descriptionP2: 'Ha participado en festivales internacionales como el "Hip Hop al Parque" que se realiza en Bogotá, uno de los más importantes para el género a nivel Latinoamérica.',
-    coverImg: "https://imgbox.com/8qcCrQ85",
+    coverImg: "https://thumbs2.imgbox.com/a5/8b/8qcCrQ85_t.jpg",
     photoBy: "Jess Hidalgo Galvan",
     url: '"https://www.youtube.com/watch?v=Uf6cB4KvH4g"',
     from: "La Habana, Cuba",
