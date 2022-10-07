@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Interviews.scss";
+import NavInterviews from "../containers/NavInterviews";
+import Subscribe from "../containers/Subscribe";
 import interviewsData from "../data/InterviewsData";
 
 const Interviews = () => {
@@ -21,7 +23,6 @@ const Interviews = () => {
   // function changeCurrentArtist(index) {
   //   setCurrentArtist(index)
   // }
-
   const interviews = interviewsData.map((inter) => (
     <div key={inter.id}>
       <p>
@@ -34,20 +35,11 @@ const Interviews = () => {
 
   return (
     <div className="heading-block-Inter">
-      <div className="container"></div>
-
-      <div className="container navigation-section">
-        <h2 className="center">
-          BAJO LA ENTREVISTA <br /> CON:
-        </h2>
-        <div className="artists-buttons">{interviews}</div>
+      <div className="container">
+        {/* Here was rendering the latest interview */}
       </div>
-      <div className="subscribe-home center">
-        <p>Apóyanos con tu suscripción a BLM</p>
-        <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
-          <button className="btn btn-subscribe">SUSCRIBIRME</button>
-        </a>
-      </div>
+      <NavInterviews />
+      <Subscribe />
     </div>
   );
 };

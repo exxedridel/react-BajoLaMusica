@@ -9,11 +9,12 @@ import postsData from "../data/PostsData.js";
 import EventCard from "../containers/EventCard";
 import eventsData from "../data/EventsData";
 import Aside from "../components/Aside";
+import Subscribe from "../containers/Subscribe";
 
 const Home = () => {
   React.useEffect(() => {
     document.title = "Bajo la Música | Home ";
-    console.log(date)
+    console.log(date);
   }, []);
 
   const CoverCard = interviewsData.map((data) => {
@@ -28,10 +29,24 @@ const Home = () => {
   const EventsCards = eventsData.map((data) => {
     if (data.date.fullYear >= todayYear) {
       if (data.date.month > todayMonth) {
-        return <EventCard key={data.id} data={data} todayDay={todayDayNumber} todayMonth={todayMonth}/>;
+        return (
+          <EventCard
+            key={data.id}
+            data={data}
+            todayDay={todayDayNumber}
+            todayMonth={todayMonth}
+          />
+        );
       } else if (data.date.month === todayMonth) {
         if (data.date.day >= todayDayNumber) {
-          return <EventCard key={data.id} data={data} todayDay={todayDayNumber} todayMonth={todayMonth}/>;
+          return (
+            <EventCard
+              key={data.id}
+              data={data}
+              todayDay={todayDayNumber}
+              todayMonth={todayMonth}
+            />
+          );
         }
       }
     }
@@ -67,12 +82,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="subscribe-home center">
-            <p>Apóyanos con tu suscripción</p>
-            <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
-              <button className="btn btn-subscribe">SUSCRIBIRME</button>
-            </a>
-          </div>
+          <Subscribe />
         </div>
         <div className="Aside">
           <Aside />

@@ -2,6 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import ReactPlayer from "react-player";
 import "../styles/CoverCard.scss";
+import NavInterviews from "./NavInterviews";
+import Subscribe from "../containers/Subscribe";
 import interviewsData from "../data/InterviewsData";
 
 const CoverCard = () => {
@@ -83,6 +85,8 @@ const CoverCard = () => {
           </div>
         </div>
       </div>
+      <NavInterviews />
+      <Subscribe />
     </>
   );
 };

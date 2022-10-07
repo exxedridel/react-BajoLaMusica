@@ -64,24 +64,6 @@ hr.division {
   
 }
 
-.btn-subscribe {
-  background-color: rgb(201, 0, 0);
-  color: white;
-  border-color: transparent;
-  margin-bottom: 30px;
-  border-radius: 4px;
-}
-
-.btn-subscribe:hover {
-  background-color: rgb(201, 0, 0);
-  border-color: rgb(201, 0, 0);
-  color: white;
-}
-
-.btn-subscribe:active {
-  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
-}
-
 @media (min-width: 1050px) {
   .aside-block {
     background-color: black;

@@ -49,9 +49,11 @@ const Aside = () => {
           <TikTok url="https://www.tiktok.com/@bajolamusica432/video/7109317501913271557" />
         </div>
       </div>
-      <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
-        <button className="btn btn-subscribe">SUSCRIBIRME</button>
-      </a>
+      <div className="subscribe-aside">
+        <a href="https://www.youtube.com/channel/UC_aUkl6FZas7RexmZFtGeuw?sub_confirmation=1">
+          <button className="btn btn-subscribe">SUSCRIBIRME</button>
+        </a>
+      </div>
     </div>
   );
 };
