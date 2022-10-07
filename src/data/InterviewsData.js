@@ -1,13 +1,13 @@
 export default [
   {
-    id: 3,
+    id: "RXNDE-AKOZTA",
     artist: "RXNDE AKOZTA",
     exclusive: true,
     introduction: "Rxnde Akozta nos visitó por segunda ocasión en León, Guanajuato donde hizo un espacio para responder unas preguntas.",
     descriptionP1: "El MC underground por definición y de los más grandes contribuyentes al movimiento del rap en español.",
     descriptionP2: 'Ha participado en festivales internacionales como el "Hip Hop al Parque" que se realiza en Bogotá, uno de los más importantes para el género a nivel Latinoamérica.',
-    coverImg: "https://images2.imgbox.com/a5/8b/8qcCrQ85_o.jpg",
-    photoBy: "Jess Hidalgo Galvan",
+    coverImg: "https://images2.imgbox.com/d0/50/ARIiU4hw_o.jpg",
+    photoBy: "Jess Hidalgo Galván",
     url: '"https://www.youtube.com/watch?v=Uf6cB4KvH4g"',
     from: "La Habana, Cuba",
     articleP1: "Rxnde Akozta lleva más de la mitad de su vida dedicado al rap. Lo conoció en las calles de La Habana, Cuba cuando tenía apenas 12 años y desde ahí no ha parado de rimar. Es un eterno emigrante que viaja a donde lo lleve la música, ese es su destino (VICE, 2016).",
@@ -23,7 +23,7 @@ export default [
     link3: "https://www.youtube.com/c/DdosUGs?sub_confirmation=1",
   },
   {
-    id: 2,
+    id: "F.L.A.V.",
     artist: "F.L.A.V.",
     exclusive: true,
     introduction:
@@ -53,7 +53,7 @@ export default [
     link3: "https://www.google.com/",
   },
   {
-    id: 1,
+    id: "Fantom-Grooves",
     artist: "Fantom Grooves",
     exclusive: true,
     introduction: "",

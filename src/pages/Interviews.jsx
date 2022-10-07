@@ -1,46 +1,46 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Interviews.scss";
-import CoverCard from "../containers/CoverCard";
-import ArtistButton from "../containers/ArtistButton";
 import interviewsData from "../data/InterviewsData";
 
 const Interviews = () => {
   React.useEffect(() => {
-    document.title = `${interviewsData[currentArtist].artist} - Entrevista | Bajo la Música`;
+    document.title = "Entrevistas | Bajo la Música";
   });
 
   React.useLayoutEffect(() => {
     window.scrollTo(0, 0);
   });
 
-  const [currentArtist, setCurrentArtist] = React.useState(0);
+  // const [currentArtist, setCurrentArtist] = React.useState(0);
 
-  const CoverCards = interviewsData.map((data) => {
-    return <CoverCard key={data.id} data={data} />;
-  });
+  // const CoverCards = interviewsData.map((data) => {
+  //   return <CoverCard key={data.id} data={data} />;
+  // });
 
-  const ArtistButtons = interviewsData.map((data, index) => {
-    return (
-      <ArtistButton
-        key={data.id}
-        data={data}
-        handleClick={() => changeCurrentArtist(index)}
-      />
-    );
-  });
+  // function changeCurrentArtist(index) {
+  //   setCurrentArtist(index)
+  // }
 
-  function changeCurrentArtist(index) {
-    setCurrentArtist(index)
-  }
+  const interviews = interviewsData.map((inter) => (
+    <div key={inter.id}>
+      <p>
+        <Link to={`/interviews/${inter.id}`}>
+          <button className="btn btn-artist">{inter.artist}</button>
+        </Link>
+      </p>
+    </div>
+  ));
 
   return (
     <div className="heading-block-Inter">
-      <div className="container">
-      </div>
-      {CoverCards[currentArtist]}
+      <div className="container"></div>
+
       <div className="container navigation-section">
-        <h2 className="center">BAJO LA ENTREVISTA <br /> CON:</h2>
-        <div className="artists-buttons">{ArtistButtons}</div>
+        <h2 className="center">
+          BAJO LA ENTREVISTA <br /> CON:
+        </h2>
+        <div className="artists-buttons">{interviews}</div>
       </div>
       <div className="subscribe-home center">
         <p>Apóyanos con tu suscripción a BLM</p>
