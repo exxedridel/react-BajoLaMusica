@@ -17,7 +17,7 @@ const CoverCard = () => {
 
   const { artistID } = useParams();
   const thisInterview = interviewsData.find((interview) => interview.id === artistID);
-
+    
   return (
     <>
       <div className="hero-container-Inter">

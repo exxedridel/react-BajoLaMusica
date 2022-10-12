@@ -5,7 +5,7 @@ import interviewsData from "../data/interviewsData";
 
 const NavInterviews = () => {
   const interviews = interviewsData.map((interview) => (
-    <Link to={`/interviews/${interview.id}`}>
+    <Link to={`/entrevistas/${interview.id}`}>
       <div className="interview-element" key={interview.id}>
         <img className="image-artist" src={`${interview.coverImg}`} alt="" />
         <button className="btn btn-artist">{interview.artist}</button>

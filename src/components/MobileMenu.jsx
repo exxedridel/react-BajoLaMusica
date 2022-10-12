@@ -13,7 +13,7 @@ const MobileMenu = ({ handleToggleMobile }) => {
             </Link>
           </li>
           <li className="list-e">
-            <Link to="interviews" onClick={handleToggleMobile}>
+            <Link to="entrevistas" onClick={handleToggleMobile}>
               ENTREVISTAS
             </Link>
           </li>

@@ -23,8 +23,8 @@ root.render(
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="vlog" element={<Vlog />} />
-        <Route exact path="interviews" element={<Interviews />} />
-        <Route path="interviews/:artistID" element={<CoverCard />} />
+        <Route exact path="entrevistas" element={<Interviews />} />
+        <Route path="entrevistas/:artistID" element={<CoverCard />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

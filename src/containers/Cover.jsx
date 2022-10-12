@@ -5,7 +5,7 @@ import "../styles/Cover.scss";
 
 const Cover = (props) => {
   return (
-    <Link to={`interviews/${props.data.id}`} className="cover">
+    <Link to={`entrevistas/${props.data.id}`} className="cover">
       <div className="cover-header">
         <h2>
           ENTREVISTA CON

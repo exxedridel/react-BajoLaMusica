@@ -48,7 +48,7 @@ export default [
     articleP2:
       "Incursionó en el rap gracias a su gusto por la improvisación musical, misma característica que se encuentra en el freestyle de las batallas de rap y hacen de este genero algo tan apasionante.",
     articleP3:
-      'Aunque hoy en día surgen tantos nombres desde el género urbano F.L.A.V. se plantea elevar su nombre a lo más alto, él lo tiene muy claro a pesar de lo que este desafio significa... "Hay que ser constante, hay que ser perseverante y hay que ser ambicioso con lo que quieres que salga (sic)".',
+      'Aunque hoy en día surgen tantos nombres desde el género urbano F.L.A.V. se plantea elevar su nombre a lo más alto, él lo tiene muy claro a pesar de lo que este desafio significa... "Hay que ser constante, hay que ser perseverante y hay que ser ambicioso con lo que quieres que salga".',
     url2: "https://www.youtube.com/watch?v=949xgONjOd4",
     closing:
       'Aquí te dejamos con "Silencios", su tema más reciente y el cual fue grabado enteramente en nuestra bella ciudad de Guanajuato por Ron Caligari Films y Max Ramos Musical Production, también te dejamos sus contactos aquí abajo',

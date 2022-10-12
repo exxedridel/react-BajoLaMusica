@@ -30,9 +30,9 @@ const Aside = () => {
         </button>
         {isShown && (
           <div className="review-description">
-            <p>{AlbumsData[0].descriptionP1}</p>
-            <p>{AlbumsData[0].descriptionP2}</p>
-            <p>{AlbumsData[0].descriptionP3}</p>
+            <p>{albumsData[0].descriptionP1}</p>
+            <p>{albumsData[0].descriptionP2}</p>
+            <p>{albumsData[0].descriptionP3}</p>
           </div>
         )}
       </div>
