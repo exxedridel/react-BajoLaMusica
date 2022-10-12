@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import "../styles/Home.scss";
 import Hero from "../components/Hero";
 import Cover from "../containers/Cover";
-import interviewsData from "../data/InterviewsData.js";
+import interviewsData from "../data/interviewsData.js";
 import NoteCard from "../containers/NoteCard";
-import postsData from "../data/PostsData.js";
+import postsData from "../data/postsData.js";
 import EventCard from "../containers/EventCard";
-import eventsData from "../data/EventsData";
+import eventsData from "../data/eventsData";
 import Aside from "../components/Aside";
 import Subscribe from "../containers/Subscribe";
 

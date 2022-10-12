@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/Interviews.scss";
 import NavInterviews from "../containers/NavInterviews";
 import Subscribe from "../containers/Subscribe";
-import interviewsData from "../data/InterviewsData";
+import interviewsData from "../data/interviewsData";
 
 const Interviews = () => {
   React.useEffect(() => {
@@ -14,15 +14,6 @@ const Interviews = () => {
     window.scrollTo(0, 0);
   });
 
-  // const [currentArtist, setCurrentArtist] = React.useState(0);
-
-  // const CoverCards = interviewsData.map((data) => {
-  //   return <CoverCard key={data.id} data={data} />;
-  // });
-
-  // function changeCurrentArtist(index) {
-  //   setCurrentArtist(index)
-  // }
   const interviews = interviewsData.map((inter) => (
     <div key={inter.id}>
       <p>

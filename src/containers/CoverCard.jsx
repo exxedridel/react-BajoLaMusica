@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 import "../styles/CoverCard.scss";
 import NavInterviews from "./NavInterviews";
 import Subscribe from "../containers/Subscribe";
-import interviewsData from "../data/InterviewsData";
+import interviewsData from "../data/interviewsData";
 
 const CoverCard = () => {
   React.useEffect(() => {
@@ -16,7 +16,7 @@ const CoverCard = () => {
   });
 
   const { artistID } = useParams();
-  const thisInterview = interviewsData.find((inter) => inter.id === artistID);
+  const thisInterview = interviewsData.find((interview) => interview.id === artistID);
 
   return (
     <>

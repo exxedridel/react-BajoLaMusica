@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Vlog.scss";
 import NoteCard from "../containers/NoteCard";
-import postsData from "../data/PostsData.js";
+import postsData from "../data/postsData.js";
 
 const Vlog = () => {
   React.useEffect(() => {

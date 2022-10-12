@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Hero.scss";
-import heroData from "../data/HeroData.js";
+import heroData from "../data/heroData.js";
 
 const Hero = () => {
   const [heroImage, setHeroImage] = React.useState("");

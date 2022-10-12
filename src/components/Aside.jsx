@@ -2,7 +2,7 @@ import React from "react";
 import { TikTok } from "react-tiktok";
 import { InstagramEmbed } from "react-social-media-embed";
 import "../styles/Aside.scss";
-import AlbumsData from "../data/AlbumsData";
+import albumsData from "../data/albumsData";
 
 const Aside = () => {
   const [isShown, setIsShown] = React.useState(false);
@@ -17,7 +17,7 @@ const Aside = () => {
         <h2 className="review-title center">TE RECOMENDAMOS</h2>
         <div className="spotify">
           <iframe
-            src={`https://open.spotify.com/embed?uri=spotify:album:${AlbumsData[0].urlId}`}
+            src={`https://open.spotify.com/embed?uri=spotify:album:${albumsData[0].urlId}`}
             width="100%"
             height="380"
             frameBorder="0"
