@@ -40,7 +40,7 @@ export default [
     descriptionP2:
       "Cuenta sobre su comienzo en la música, experiencias personales, y hasta los moméntos más difíciles que lo han formado como músico.",
     coverImg: "https://images2.imgbox.com/5b/2f/oSCgZZdO_o.jpg",
-    photoBy: "Cortesía",
+    photoBy: "Ron Caligari Films",
     url: '"https://www.youtube.com/watch?v=QWjiEkqWDMs"',
     from: "Michoacán, México.",
     articleP1:
@@ -55,7 +55,7 @@ export default [
     media1: "F.L.A.V. | Instagram",
     link1: "https://www.instagram.com/coriaflavio/",
     media2: "Max Ramos Musical Production",
-    link2: "https://www.instagram.com/wax.ra/",
+    link2: "https://www.instagram.com/maxeztil_/",
     media3: "Ron Caligari Films",
     link3: "https://www.instagram.com/ron_caligari_films/",
   },
