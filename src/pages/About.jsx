@@ -20,14 +20,18 @@ const About = () => {
         <div className="about-description">
           <h2>De los Fundadores</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
-            unde quasi maiores amet error alias omnis ullam, excepturi cumque
-            eaque, consequuntur praesentium inventore eum.
+            Todos estamos bajo la música... ya que forma una actividad hasta
+            esencial para el desarrollo del individuo, sin embargo la realidad
+            es que este arte se ha convertido en una industria para beneficiar a
+            los que menos aportan a ella. De ahí que nuestro objetivo sea
+            contribuir dando visibilidad a los que trabajan duro por hacerse
+            escuchar.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
-            unde quasi maiores amet error alias omnis ullam, excepturi cumque
-            eaque, consequuntur praesentium inventore eum.
+            Somos músicos y entendemos que las oportunidades y los espacios son
+            cada vez más difíciles de encontrar, por eso estamos construyendo
+            este portal donde todo el que tenga una propuesta pueda sumarse a
+            esta comunidad y crecer juntos.
           </p>
         </div>
       </div>
@@ -35,17 +39,15 @@ const About = () => {
         <div className="mision-container">
           <h2>Nuestra Misión</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
-            unde quasi maiores amet error alias omnis ullam, excepturi cumque
-            eaque, consequuntur praesentium inventore eum.
+            Dar difusión a quien la requiera: ¿tienes nuevo material? ¿vas a tener un concierto? o ¿simplemente quieres dar a conocer tu propuesta? entonces no dudes en contactarnos, no te vamos a cobrar.
           </p>
         </div>
         <div className="values-container">
           <h2>Nuestros Valores</h2>
           <div className="value-elements">
             <div className="value-ele">
-              <h4>Lograr la excelencia</h4>
-              <p>Luchamos para dejar una vara alta</p>
+              <h4>Equidad</h4>
+              <p>Lograr igualdad de oportunidades</p>
             </div>
             <div className="value-ele">
               <h4>Hacer lo correcto</h4>
@@ -56,7 +58,7 @@ const About = () => {
               <p>Encontrar maneras de hacerlo mejor</p>
             </div>
             <div className="value-ele">
-              <h4>Crecer nuestra comunidad</h4>
+              <h4>Crecer como comunidad</h4>
               <p>Porque más amigos es mejor</p>
             </div>
             <div className="value-ele">

@@ -64,22 +64,29 @@ export default [
     artist: "Fantom Grooves",
     exclusive: true,
     introduction: "",
-    descriptionP1: "Surgen a partir de una fuerte conexión con el jazz y el soul, pero con la necesidad de crear un sonido original.",
-    descriptionP2: "Estuvimos escuchándolos durante un ensayo donde realmente se sentía la energía y el sentimiento que cada integrante aporta.",
-    coverImg: "https://images2.imgbox.com/8e/35/avo0p0OK_o.jpg",
+    descriptionP1:
+      "Surgen a partir de una fuerte conexión con el jazz y el soul, pero con la necesidad de crear un sonido original.",
+    descriptionP2:
+      "Estuvimos escuchándolos durante un ensayo donde realmente se sentía la energía y el sentimiento que cada integrante aporta.",
+    coverImg: "https://images2.imgbox.com/ed/d1/mokmjUjS_o.jpg",
     photoBy: "Cortesía",
     url: '"https://www.youtube.com/watch?v=D_ReUvUC0Ks"',
     from: "Guanajuato, México",
-    articleP1: "Fantom Grooves es una mezcla bien equilibrada en todos los sentidos, tanto musical, como de ideas, y de experiencias donde cada uno aporta una pieza clave a la música que van construyendo.",
-    articleP2: "Su atributo principal es la colaboración, en este ensamble, como en todo el jazz, no hay quien tenga la última palabra, todo se trata del sentir que cada uno imprime en sus propias notas para así lograr proyectar un sentimiento colectivo.",
-    articleP3: 'Iniciaron con covers estándares de jazz, perfeccionando la técnica y analizando los sonidos de sus bandas preferidas para hoy en día poder reproducir esas sensaciones en sus propias interpretaciones y estilo... "Diría que sí es muy necesario el estudio en el genero del jazz, lo que te gusta lo buscas, lo tratas de comprender, para poderlo tocar después" - David Estrada (Bajo).',
+    articleP1:
+      "Fantom Grooves es una mezcla bien equilibrada en todos los sentidos, tanto musical, como de ideas, y de experiencias donde cada uno aporta una pieza clave a la música que van construyendo.",
+    articleP2:
+      "Su atributo principal es la colaboración, en este ensamble, como en todo el jazz, no hay quien tenga la última palabra, todo se trata del sentir que cada uno imprime en sus propias notas para así lograr proyectar un sentimiento colectivo.",
+    articleP3:
+      'Iniciaron con covers estándares de jazz, perfeccionando la técnica y analizando los sonidos de sus bandas preferidas para hoy en día poder reproducir esas sensaciones en sus propias interpretaciones y estilo... "Diría que sí es muy necesario el estudio en el genero del jazz, lo que te gusta lo buscas, lo tratas de comprender, para poderlo tocar después" - David Estrada (Bajo).',
     url2: '"https://www.youtube.com/watch?v=9yVemGw1PA4"',
-    closing: 'Aquí te dejamos con este teaser del video "Live_session" que ya puedes ver completo en su página de facebook, también están abiertos a tocar en tu evento.',
+    closing:
+      'Aquí te dejamos con este teaser del video "Live_session" que ya puedes ver completo en su página de facebook, también están abiertos a tocar en tu evento.',
     media1: "Facebook",
     link1: "https://www.facebook.com/phantomjazz/",
     media2: "Instagram",
     link2: "https://www.instagram.com/fantom_grooves/",
     media3: "Youtube",
-    link3: "https://www.youtube.com/channel/UCuRog6c1XnzqJtQa-ZtNnmg?sub_confirmation=1",
+    link3:
+      "https://www.youtube.com/channel/UCuRog6c1XnzqJtQa-ZtNnmg?sub_confirmation=1",
   },
 ];
