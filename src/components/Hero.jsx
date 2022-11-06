@@ -28,7 +28,7 @@ const Hero = () => {
 
   return (
     <div className="hero-container">
-      <img src={`${heroImage}`} alt="Imagen de inicio." />
+      <img src={`${heroImage}`} alt="Imagen del inicio" />
       <div className="overlap-text">
         <p>
           AHORA ESTÁS <br /> ¡<b>BAJO LA MÚSICA</b> <br /> DE GUANAJUATO!

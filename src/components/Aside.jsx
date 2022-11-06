@@ -46,7 +46,7 @@ const Aside = () => {
           />
         </div>
         <div className="tiktok">
-          <TikTok url="https://www.tiktok.com/@bajolamusica432/video/7109317501913271557" />
+          <TikTok url="https://www.tiktok.com/@bajolamusica432/video/7109317501913271557"/>
         </div>
       </div>
       <div className="subscribe-aside">
