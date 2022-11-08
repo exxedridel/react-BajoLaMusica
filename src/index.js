@@ -18,15 +18,17 @@ root.render(
   <StrictMode>
     <HashRouter>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="vlog" element={<Vlog />} />
-        <Route exact path="entrevistas" element={<Interviews />} />
-        <Route path="entrevistas/:artistID" element={<CoverCard />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+      <div class="main">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="vlog" element={<Vlog />} />
+          <Route exact path="entrevistas" element={<Interviews />} />
+          <Route path="entrevistas/:artistID" element={<CoverCard />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
       <Footer />
     </HashRouter>
   </StrictMode>

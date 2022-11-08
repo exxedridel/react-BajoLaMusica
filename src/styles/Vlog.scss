@@ -1,6 +1,10 @@
 .vlog-block {
-   background-color: black;
+   background-color: var(--body-color);
    padding: 40px 0;
+ }
+
+ .vlog-block h2 {
+  font-size: 2.3rem;
  }
 
  .subscribe-vlog {

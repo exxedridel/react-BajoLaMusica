@@ -5,11 +5,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 3px 33px;
-  border-bottom: 1px solid var(--contrast);
   background-color: var(--body-color);
-  // position: -webkit-sticky;
-  // position: sticky;
-  // top: 0;
 }
 
 .nav-logo {
@@ -56,6 +52,11 @@ nav {
   margin-left: 25px;
 }
 
+.division {
+  padding: 0.25em;
+  background: var(--sunshine-gradient);
+}
+
 @media (max-width: 882px) {
   nav.navbar {
     padding: 3px 10px;
@@ -71,10 +72,10 @@ nav {
 
 @media (min-width: 882px) {
   // nav.navbar {
-    // position: -webkit-sticky;
-    // position: sticky;
-    // top: 0;
-    // z-index: 1;
+  // position: -webkit-sticky;
+  // position: sticky;
+  // top: 0;
+  // z-index: 1;
   // }
 }
 
@@ -86,6 +87,14 @@ nav {
     top: 0;
     z-index: 1;
   }
+
+  .division{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+    z-index: 1;
+  }
+
   .navbar-right ul li a {
     padding: 10px 15px;
     margin: 0 35px;

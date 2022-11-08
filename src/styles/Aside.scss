@@ -35,14 +35,19 @@
   font-size: var(--sm);
   // text-align: center;
   border: 1px solid grey;
+  border-radius: 9px;
   margin: 0 8px 8px;
   padding: 0 8px;
   max-width: 500px;
 }
 
-hr.division {
+hr.aside-division {
   width: 80%;
   border-top: 1px solid grey;
+}
+
+.aside-block h3 {
+  margin: 25px 0;
 }
 
 .aside-component-list {
@@ -66,12 +71,12 @@ hr.division {
 
 @media (min-width: 1050px) {
   .aside-block {
-    background-color: black;
+    background-color: var(--text-input-field);
     color: white;
     max-width: 25vw;
-    // border-left: solid 1px grey;
+    border: 1px solid var(--container-color);
     border-radius: 9px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px #3838387c;
   }
   .review-title {
     border-bottom: 1px solid var(--contrast);

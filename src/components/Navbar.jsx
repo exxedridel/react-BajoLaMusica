@@ -48,6 +48,7 @@ const Navbar = () => {
         />
       </nav>
       {toggleMobile && <MobileMenu handleToggleMobile={handleToggleMobile} />}
+      <div className="division"></div>
     </>
   );
 };

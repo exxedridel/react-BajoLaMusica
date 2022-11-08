@@ -1,18 +1,18 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Hero.scss";
-// import heroData from "../data/heroData.js";
+import heroData from "../data/heroData.js";
 import axios from "axios";
 
 const Hero = () => {
   const [heroImage, setHeroImage] = React.useState("");
 
   /* Call to unesplash api for random images of a topic */
-  useEffect(() => {
-    axios.get("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&query=concert")
-      .then((res) => setHeroImage(res.data.urls.regular))
-      .catch((error) => {console.log(error)});
-  }, []);
+  // useEffect(() => {
+  //   axios.get("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&query=concert")
+  //     .then((res) => setHeroImage(res.data.urls.regular))
+  //     .catch((error) => {console.log(error)});
+  // }, []);
 
   /* Same call with @babel/plugin-transform-runtime, not working */
   // useEffect(async () => {
@@ -21,10 +21,10 @@ const Hero = () => {
   // }, []);
 
   /* random images from local array */
-  // React.useEffect(() => {
-  //   const randomNumber = Math.floor(Math.random() * heroData.length);
-  //   setHeroImage(heroData[randomNumber].imageUrl);
-  // }, []);
+  React.useEffect(() => {
+    const randomNumber = Math.floor(Math.random() * heroData.length);
+    setHeroImage(heroData[randomNumber].imageUrl);
+  }, []);
 
   return (
     <div className="hero-container">

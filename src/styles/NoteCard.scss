@@ -5,8 +5,8 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  border: solid 1px grey;
-  border-radius: 0px;
+  border-bottom: solid 1px grey;
+  border-radius: 9px;
 }
 
 .note-card--title p {
@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 60px;
   overflow-x: auto;
   padding: 40px 0px;
   margin: 0;

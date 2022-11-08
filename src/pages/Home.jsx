@@ -14,7 +14,7 @@ import Subscribe from "../containers/Subscribe";
 const Home = () => {
   React.useEffect(() => {
     document.title = "Bajo la Música | Home ";
-    console.log(date);
+    // console.log(date);
   }, []);
 
   const CoverCard = interviewsData.map((data) => {
@@ -58,35 +58,37 @@ const Home = () => {
 
   return (
     <>
-      <Hero />
-      <div className="Template">
-        <div className="Cover heading-block center">
-          <div className="heading-title">
-            <h1>LO ÚLTIMO BLM</h1>
-          </div>
-          {CoverCard[0]}
-        </div>
-
-        <div className="Events middle-block">
-          <h2 className="center">PRÓXIMOS EVENTOS</h2>
-          <div className="events-card-list ">{EventsCards}</div>
-        </div>
-
-        <div className="Videos bottom-block">
-          <h2 className="center">BAJO EL VLOG</h2>
-          <div className="notes-card-list">
-            {NotesCards.slice(0, 2)}
-            <div className="center">
-              <Link to="vlog">
-                <button className="btn verMas">Ver 1 más</button>
-              </Link>
+      <div className="template">
+        <Hero />
+        <main>
+          <div className="cover container-block center">
+            <div className="heading-title">
+              <h1 className="gradient-text">LO ÚLTIMO BLM</h1>
             </div>
+            {CoverCard[0]}
           </div>
-          <Subscribe />
-        </div>
-        <div className="Aside">
-          <Aside />
-        </div>
+
+          <div className="events middle-block">
+            <h2 className="center">PRÓXIMOS EVENTOS</h2>
+            <div className="events-card-list ">{EventsCards}</div>
+          </div>
+
+          <div className="videos container-block bottom-block">
+            <h2 className="center">BAJO EL VLOG</h2>
+            <div className="notes-card-list">
+              {NotesCards.slice(0, 2)}
+              <div className="center">
+                <Link to="vlog">
+                  <button className="btn verMas">Ver 1 más</button>
+                </Link>
+              </div>
+            </div>
+            <Subscribe />
+          </div>
+          <div className="aside">
+            <Aside />
+          </div>
+        </main>
       </div>
     </>
   );

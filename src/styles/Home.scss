@@ -1,25 +1,42 @@
 div > h2 {
   letter-spacing: 2px;
-  padding: 28px 0;
+  padding: 40px 0;
   margin: 0px;
 }
 
-.hero-container {
-  background-color: rgb(32, 32, 32);
+.template {
+  display: block;
+  margin: 0 auto;
+  max-width: 1450px;
 }
 
-.heading-block {
-  background-color: black;
+.cover {
+  margin-bottom: 50px;
+}
+
+.gradient-text {
+  background-color: #81347f;
+  background-image: linear-gradient(
+    90deg,
+    #df5ada 0%,
+    rgb(255, 200, 49) 100%
+  );;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.container-block {
+  background-color: var(--body-color);
 }
 
 .middle-block {
-  background-color: white;
+  background-color: whitesmoke;
   color: black;
   padding-bottom: 20px;
-}
-
-.bottom-block {
-  background-color: black;
 }
 
 .bottom-block > h2 {
@@ -28,49 +45,55 @@ div > h2 {
 
 .aside-block {
   background-color: whitesmoke;
-  color: black;
+  color: var(--body-color);
 }
 
-.verMas a:hover {
-  color: black;
+.cover {
+  grid-area: cover;
 }
-
-.Cover {
-  grid-area: Cover;
+.events {
+  grid-area: events;
 }
-.Events {
-  grid-area: Events;
+.videos {
+  grid-area: videos;
 }
-.Videos {
-  grid-area: Videos;
-}
-.Aside {
-  grid-area: Aside;
+.aside {
+  grid-area: aside;
 }
 
 @media (min-width: 1050px) {
-  .Template {
-    padding: 20px;
+  main {
+    padding: 30px 20px;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-gap: 1em 1em;
     grid-template-areas:
-      "Cover Aside"
-      "Events Aside"
-      "Videos Aside";
+      "cover aside"
+      "events aside"
+      "videos aside";
   }
 
-  .Cover,
-  .Events,
-  .Videos {
-    // border-left: solid 1px grey;
+  .cover,
+  .events,
+  .videos {
+    border: 1px solid var(--container-color);
     border-radius: 9px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px #3838387c;
+    margin-bottom: 10px;
+  }
+
+  .container-block {
+    background-color: var(--text-input-field);
   }
 }
 
 @media (min-width: 1250px) {
-  .Template {
+  .hero-container {
+    margin-top: 50px;
+    font-size: 1.15rem;
+  }
+  main {
+    margin-top: 30px;
     grid-gap: 2em 2.3em;
   }
 }

@@ -49,6 +49,12 @@
   }
 }
 
+@media (min-width: 1450px) {
+  .hero-container img {
+    border-radius: 9px;
+  }
+}
+
 @media (max-width: 1073px) {
   .hero-container img {
     height: 500px;

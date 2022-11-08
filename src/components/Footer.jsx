@@ -10,13 +10,18 @@ function goTop() {
 const Footer = () => {
   return (
     <>
-      <div className="footer">
-        <div className="left">
-          © 2022 WebApp Bajo la Música Pvt. Ltd. — Derechos Reservados
-        </div>
-        <div onClick={goTop} className="right">
-          <p>Volver a arriba</p>
-          <img src={icon} alt="icon" />
+      <div className="container-footer">
+        <div className="template footer">
+          <div className="left">
+            <Link to="contact">
+              <p>Consulta nuestro aviso de privacidad*</p>
+            </Link>
+            <p>© 2022 WebApp Bajo la Música Pvt. Ltd. — Derechos Reservados</p>
+          </div>
+          <div onClick={goTop} className="right">
+            <p className="go-top">Volver a arriba</p>
+            <img src={icon} alt="icon" />
+          </div>
         </div>
       </div>
     </>

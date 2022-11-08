@@ -36,7 +36,7 @@ const Aside = () => {
           </div>
         )}
       </div>
-      <hr className="division" />
+      <hr className="aside-division" />
       <h3>SÍGUENOS BLM</h3>
       <div className="aside-component-list">
         <div className="instagram">
