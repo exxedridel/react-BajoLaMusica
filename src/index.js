@@ -5,7 +5,7 @@ import "./styles/global.scss";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Footer from "./components/Footer";
 import Vlog from "./pages/Vlog";
 import Interviews from "./pages/Interviews";
@@ -18,11 +18,11 @@ root.render(
   <StrictMode>
     <HashRouter>
       <Navbar />
-      <div class="main">
+      <div className="main">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="privacy-policy" element={<PrivacyPolicy />} />
           <Route path="vlog" element={<Vlog />} />
           <Route exact path="entrevistas" element={<Interviews />} />
           <Route path="entrevistas/:artistID" element={<CoverCard />} />

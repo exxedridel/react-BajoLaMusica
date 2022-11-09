@@ -14,14 +14,14 @@ const Footer = () => {
       <div className="container-footer">
         <div className="template footer">
           <div className="left">
-            <Link to="contact">
+            <Link to="privacy-policy">
               <p>Consulta nuestro aviso de privacidad *</p>
             </Link>
             <p>© 2022 WebApp Bajo la Música Pvt. Ltd. — Derechos Reservados</p>
           </div>
           <div onClick={goTop} className="right">
-            <img src={upArrow} alt="Back to top"/>
-            <img src={icon} alt="icon" />
+            <img style={{width: "32px"}} src={upArrow} alt="Back to top"/>
+            <img src={icon} alt="BLM icon" />
           </div>
         </div>
       </div>
