@@ -19,20 +19,21 @@ const About = () => {
             <img src={BLM_image} alt="Imagen BLM" />
           </div>
           <div className="about-description">
-            <h2>De los Fundadores</h2>
+            <h2>Mensaje de los fundadores</h2>
             <p>
-              Todos estamos bajo la música... ya que forma una actividad hasta
-              esencial para el desarrollo del individuo, sin embargo la realidad
-              es que este arte se ha convertido en una industria para beneficiar
-              a los que menos aportan a ella. De ahí que nuestro objetivo sea
-              contribuir dando visibilidad a los que trabajan duro por hacerse
-              escuchar.
+              Todos estamos bajo la música... pues a donde quiera que vayamos o
+              intentemos ir estará presente, es una característica única de los
+              humanos (y algunos animales 🥰) y forma una parte hasta esencial
+              en el desarrollo del individuo, ya que fortalece el aprendizaje,
+              la memoria y nos puede hacer sentir emociones. ¿Qué sería de
+              nosotros sin la música?
             </p>
             <p>
-              Somos músicos y entendemos que las oportunidades y los espacios
-              son cada vez más difíciles de encontrar, por eso estamos
-              construyendo este portal donde todo el que tenga una propuesta
-              pueda sumarse a esta comunidad y crecer juntos.
+              Somos músicos de profesión y no lo queremos ni imaginar, por eso
+              queremos que cada vez más gente pueda encontrar espacios y
+              oportunidades para dar a conocer su propuesta más facilmente y
+              nutrir un ecosistema sano basado en el simple hecho de seguir
+              estando bajo la música... ¡hagamos difusión y comunidad! 🎶
             </p>
           </div>
         </div>

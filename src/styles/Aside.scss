@@ -29,6 +29,13 @@
   border-radius: 5px;
   padding: 7px 12px;
   margin-bottom: 15px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+
+.btn-review:hover {
+  color: white;
+  background-color: var(--body-color);
 }
 
 .review-description {
@@ -66,7 +73,6 @@ hr.aside-division {
 .instagram {
   margin: 20px 0 0;
   overflow-x: hidden;
-  
 }
 
 @media (min-width: 1050px) {
@@ -88,6 +94,12 @@ hr.aside-division {
   .btn-review {
     color: white;
     border-color: white;
+    font-weight: bold;
+    transition-duration: 0.4s;
+  }
+  .btn-review:hover {
+    color: black;
+    background-color: white;
   }
   .tiktok,
   .instagram {

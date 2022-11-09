@@ -25,9 +25,9 @@ const Interviews = () => {
   // ));
 
   return (
-    <div className="heading-block-Inter">
-      <h2 className="">
-        BAJO LA ENTREVISTA <br /> CON:
+    <div className="container heading-block-Inter">
+      <h2 className="center">
+        BAJO LA <br />ENTREVISTA
       </h2>
       <NavInterviews />
       <Subscribe />
