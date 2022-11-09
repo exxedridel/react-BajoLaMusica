@@ -12,11 +12,8 @@
   font-size: var(--nav-elements);
 }
 .list-e a:hover {
-  border: 1px solid var(--contrast);
   color: var(--contrast);
-  padding: 5px 10px;
   margin: 0 10px;
-  border-radius: 8px;
 }
 .mobile-menu a {
   text-decoration: none;
