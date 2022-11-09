@@ -61,7 +61,7 @@ const Home = () => {
       <div className="template">
         <Hero />
         <main>
-          <div className="cover container-block center">
+          <div className="cover-ele container-block center">
             <div className="heading-title">
               <h1 className="gradient-text">LO ÚLTIMO BLM</h1>
             </div>

@@ -1,7 +1,9 @@
 .navigation-section {
   background-color: black;
-  padding: 30px 0 50px;
-  margin-bottom: 60px;
+  padding: 40px 0;
+  margin-bottom: 45px;
+  // border-top: 1px solid;
+  // border-bottom: 1px solid;
 }
 
 .artists-buttons {
@@ -9,7 +11,7 @@
   flex-wrap: nowrap;
   gap: 20px;
   overflow-x: auto;
-  padding: 20px 15px 15px 15px;
+  padding: 20px;
 }
 
 .interview-element {

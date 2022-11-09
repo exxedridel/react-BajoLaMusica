@@ -4,7 +4,7 @@
 }
 
 .footer {
-  font-size: var(--sm);
+  font-size: 12px;
   padding: 20px;
   height: 150px;
   display: flex;
@@ -19,17 +19,13 @@
   margin-left: 40px;
 }
 
-.right > p {
-  font-size: 12px;
-}
-
 .right img {
   width: 36px;
 }
 
-// .go-top {
-//   border: 1px solid white;
-// }
+.go-top {
+  
+}
 
 .right:hover,
 .left a:hover {

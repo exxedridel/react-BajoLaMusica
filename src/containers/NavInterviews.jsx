@@ -16,9 +16,6 @@ const NavInterviews = () => {
   return (
     <>
       <div className="container navigation-section">
-        <h2 className="center">
-          BAJO LA ENTREVISTA <br /> CON:
-        </h2>
         <div className="artists-buttons">{interviews}</div>
       </div>
     </>

@@ -26,9 +26,9 @@ const Interviews = () => {
 
   return (
     <div className="heading-block-Inter">
-      {/* <div className="container">
-        Here was rendering the latest interview
-      </div> */}
+      <h2 className="">
+        BAJO LA ENTREVISTA <br /> CON:
+      </h2>
       <NavInterviews />
       <Subscribe />
     </div>
