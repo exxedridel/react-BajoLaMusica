@@ -35,7 +35,7 @@ const About = () => {
               espacios y oportunidades para dar a conocer sus propuestas más
               facilmente y así nutrir un ecosistema sano basado en el simple
               hecho de seguir estando bajo la música. Con ese fin estamos
-              creando este portal, ¡hagamos comunidad!🎶
+              creando este portal, ¡hagamos comunidad! 🎶
             </p>
           </div>
         </div>
