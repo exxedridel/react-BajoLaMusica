@@ -23,19 +23,19 @@ const About = () => {
             <p>
               Todos estamos bajo la música... pues a donde quiera que vayamos o
               intentemos ir estará presente. La música no es una característica
-              única de los humanos (algunos animales hacen ritmos 🥰), sin
-              embargo, se ha demostrado que es una parte esencial en el
-              desarrollo del individuo ya que fortalece el aprendizaje, la
-              memoria y nos puede hacer sentir emociones profundas. ¿Qué sería
+              única de los seres humanos (algunos animales hacen ritmos 🥰), sin
+              embargo, se ha demostrado que es una parte hasta esencial en el
+              desarrollo de las personas ya que fortalece el aprendizaje, la
+              memoria y nos puede hacer sentir emociones muy profundas. ¿Qué sería
               de nosotros sin la música?
             </p>
             <p>
-              Somos músicos de profesión y no lo queremos averiguar o siquiera
+              Afortunadamente somos músicos de profesión y no lo queremos averiguar o siquiera
               imaginar, por eso queremos que cada vez más gente pueda encontrar
               espacios y oportunidades para dar a conocer sus propuestas más
               facilmente y así nutrir un ecosistema sano basado en el simple
-              hecho de seguir estando bajo la música... con ese fin estamos
-              creando este portal, ¡hagamos comunidad! 
+              hecho de seguir estando bajo la música. Con ese fin estamos
+              creando este portal, ¡hagamos comunidad!🎶
             </p>
           </div>
         </div>
